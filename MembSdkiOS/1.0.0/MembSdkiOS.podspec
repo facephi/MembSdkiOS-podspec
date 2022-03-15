@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MembSdkiOS'
-  s.version          = '1.0.0'
+  spec.version          = '1.0.0'
   s.summary          = 'A short description of MembSdkiOS.'
   s.swift_version = '5.0'
 
@@ -25,9 +25,9 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/jpoveda@facephi.com/memb-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  #s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jpoveda@facephi.com' => 'jpoveda@facephi.com' }
-  s.source           = { :git => 'https://github.com/facephi/MembSdkiOS-podspec.git', :tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/facephi/MembSdkiOS-podspec.git', :tag => "#{spec.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
