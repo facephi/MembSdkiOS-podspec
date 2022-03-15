@@ -1,0 +1,224 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MembiOS
+import Combine
+import FPhiSelphIDWidgetiOS
+import Foundation
+import Lottie
+import Swift
+import UIKit
+import _Concurrency
+import os.log
+import os
+final public class TransactionTokenService {
+  public init()
+  final public func getTransactionToken(transactionId: Swift.String, callbackUrl: Swift.String, documentType: Swift.String) -> Combine.AnyPublisher<MembiOS.TransactionTokenResponse, Swift.Error>
+  @objc deinit
+}
+extension MembiOS.R {
+  public enum Font : Swift.String, Swift.CaseIterable {
+    case bold
+    case regular
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [MembiOS.R.Font]
+    public typealias RawValue = Swift.String
+    public static var allCases: [MembiOS.R.Font] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public struct SelfieTrackResponse : Swift.Decodable {
+  public var succeeded: Swift.Bool
+  public var alive: Swift.Bool
+  public var match: Swift.Bool
+  public init(from decoder: Swift.Decoder) throws
+}
+public class MembSdkManager {
+  public init(navigationController: UIKit.UINavigationController, completion: MembiOS.MembSDKCompletion? = nil)
+  public func launchSDK(membSdkRequest: MembiOS.MembSdkRequest)
+  @objc deinit
+}
+public struct OnboardingResponse {
+}
+public typealias MembSDKCompletion = (MembiOS.MembSdkResponse) -> Swift.Void
+@objc @_hasMissingDesignatedInitializers final public class SelphIDMockWidgetBiometryService : ObjectiveC.NSObject, MembiOS.WidgetServiceProtocol {
+  final public var delegate: MembiOS.WidgetServiceDelegate
+  final public func callService()
+  @objc deinit
+}
+public struct TransactionTokenResponse : Swift.Decodable {
+  public var token: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum R {
+}
+@_hasMissingDesignatedInitializers public class Theme {
+  public var name: Swift.String
+  public var fonts: [MembiOS.R.Font : Swift.String]
+  public var dimensions: [MembiOS.R.Dimension : CoreGraphics.CGFloat]
+  public var styles: [MembiOS.R.Style : MembiOS.StyleHelper.TextAttributes]
+  public static func setup(theme: MembiOS.ThemeProtocol)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class StyleHelper {
+  public struct TextAttributes {
+  }
+  @objc deinit
+}
+public enum WidgetServiceError : Swift.Error {
+  case cancelled
+  case failed
+  case timeout
+  case retryable
+  case needsSelphID
+  case cameraPermissionDenied
+  public static func == (a: MembiOS.WidgetServiceError, b: MembiOS.WidgetServiceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol WidgetServiceDelegate {
+  func successResponse<T>(response: T)
+  func failedResponse(error: MembiOS.WidgetServiceError)
+}
+public protocol WidgetServiceProtocol {
+  var delegate: MembiOS.WidgetServiceDelegate { get set }
+  func callService()
+}
+@objc @_hasMissingDesignatedInitializers final public class SelphIDWidgetBiometryService : ObjectiveC.NSObject, MembiOS.WidgetServiceProtocol {
+  final public var delegate: MembiOS.WidgetServiceDelegate
+  final public func callService()
+  @objc deinit
+}
+extension MembiOS.SelphIDWidgetBiometryService : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
+  @objc final public func captureFinished()
+  @objc final public func captureCancelled()
+  @objc final public func captureTimeout()
+  @objc final public func captureFailed(_ error: Swift.Error!)
+  @objc final public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
+}
+public typealias Completion = () -> Swift.Void
+public struct NFCData : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct MembSdkRequest {
+  public var token: Swift.String
+  public var documentType: MembiOS.DocumentType?
+  public init(token: Swift.String, documentType: MembiOS.DocumentType?)
+}
+@_inheritsConvenienceInitializers public class ThemeAena : MembiOS.Theme {
+  public init()
+  @objc deinit
+}
+extension MembiOS.ThemeAena : MembiOS.ThemeProtocol {
+  public func setup()
+  public func setupFonts()
+  public func setupDimensions()
+  public func setupStyles()
+}
+public enum ResultCode : Swift.Int {
+  case CANCEL
+  case SUCCESS
+  case ERROR
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct MembSdkResponse {
+  public var resultCode: MembiOS.ResultCode
+  public var documentType: MembiOS.DocumentType
+  public var documentIssuer: Swift.String
+  public var documentNumber: Swift.String
+}
+extension MembiOS.R {
+  public enum Style {
+    case roundedButton
+    case roundedLabel
+    case linkButton
+    case barButton
+    case title1
+    case title2
+    case title2White
+    case title25
+    case title25White
+    case title3
+    case title4
+    case title5
+    case regularBig
+    case regular
+    case regularTerciary
+    case regularSmall
+    case regularSmallPlus
+    case regularSmallWhite
+    case roundedView
+    case roundedViewSecondary
+    public static func == (a: MembiOS.R.Style, b: MembiOS.R.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public enum DocumentType : Swift.UInt, Swift.CaseIterable {
+  case ID_CARD
+  case PASSPORT
+  case FOREIGN_CARD
+  public init?(rawValue: Swift.UInt)
+  public typealias AllCases = [MembiOS.DocumentType]
+  public typealias RawValue = Swift.UInt
+  public static var allCases: [MembiOS.DocumentType] {
+    get
+  }
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+extension MembiOS.DocumentType {
+  public func toString() -> Swift.String
+}
+public struct SelphiResponse {
+  public var image: UIKit.UIImage?
+  public var template: Foundation.Data
+}
+public protocol ThemeProtocol {
+  var name: Swift.String { get }
+  var fonts: [MembiOS.R.Font : Swift.String] { get }
+  var dimensions: [MembiOS.R.Dimension : CoreGraphics.CGFloat] { get }
+  var styles: [MembiOS.R.Style : MembiOS.StyleHelper.TextAttributes] { get }
+  func setup()
+  func setupFonts()
+  func setupDimensions()
+  func setupStyles()
+}
+@_hasMissingDesignatedInitializers public class NFCRemoteService {
+  @objc deinit
+}
+extension MembiOS.R {
+  public enum Dimension : CoreGraphics.CGFloat {
+    case fontVerySmall
+    case fontSmall
+    case fontSmallPlus
+    case fontRegular
+    case fontRegularBig
+    case fontQuasyBig
+    case fontBig
+    case fontBigPlus
+    case fontBigPlusPlus
+    case fontVeryBig
+    case defaultBorder
+    case defaulControlSize
+    case cornerRadius
+    case cornerRadiusBig
+    public init?(rawValue: CoreGraphics.CGFloat)
+    public typealias RawValue = CoreGraphics.CGFloat
+    public var rawValue: CoreGraphics.CGFloat {
+      get
+    }
+  }
+}

@@ -1,0 +1,4 @@
+framework module MembiOS {
+  header "MembiOS-Swift.h"
+  requires objc
+}

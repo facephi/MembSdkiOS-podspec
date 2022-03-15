@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="78o-IC-eIQ" customClass="PickerViewContainer" customModule="MembiOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="206"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMw-aB-obU">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <items>
+                        <barButtonItem title="Cancel" id="T2j-cM-WUX">
+                            <connections>
+                                <action selector="cancelTouchUpInside:" destination="78o-IC-eIQ" id="ybF-rj-JbZ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Rhj-Ea-CIU"/>
+                        <barButtonItem title="Done" id="kcQ-hF-P0Z">
+                            <connections>
+                                <action selector="doneTouchUpInside:" destination="78o-IC-eIQ" id="Gqw-nm-zGC"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcy-X7-dG8">
+                    <rect key="frame" x="0.0" y="44" width="414" height="162"/>
+                </pickerView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Ap7-tt-urw"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TMw-aB-obU" secondAttribute="trailing" id="4b8-iV-by3"/>
+                <constraint firstItem="TMw-aB-obU" firstAttribute="top" secondItem="78o-IC-eIQ" secondAttribute="top" id="BNw-RJ-VfK"/>
+                <constraint firstItem="Tcy-X7-dG8" firstAttribute="top" secondItem="TMw-aB-obU" secondAttribute="bottom" id="KqC-jb-Z6F"/>
+                <constraint firstItem="Tcy-X7-dG8" firstAttribute="leading" secondItem="Ap7-tt-urw" secondAttribute="leading" id="OGW-uP-E8R"/>
+                <constraint firstItem="Tcy-X7-dG8" firstAttribute="bottom" secondItem="Ap7-tt-urw" secondAttribute="bottom" id="W2h-8O-T8D"/>
+                <constraint firstItem="Tcy-X7-dG8" firstAttribute="trailing" secondItem="Ap7-tt-urw" secondAttribute="trailing" id="XlO-rR-E26"/>
+                <constraint firstItem="TMw-aB-obU" firstAttribute="leading" secondItem="78o-IC-eIQ" secondAttribute="leading" id="h7B-va-5GU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="T2j-cM-WUX" id="aer-PV-403"/>
+                <outlet property="doneButton" destination="kcQ-hF-P0Z" id="biQ-KG-Bcz"/>
+                <outlet property="pickerView" destination="Tcy-X7-dG8" id="pwZ-uT-06S"/>
+                <outlet property="toolBar" destination="TMw-aB-obU" id="sYN-bC-glH"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="57"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
