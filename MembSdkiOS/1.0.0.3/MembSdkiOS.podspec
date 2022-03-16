@@ -32,24 +32,11 @@ TODO: Add long description of the pod here.
 
   spec.ios.deployment_target = '13.0'
 
-  spec.static_framework = true
-
   spec.resource_bundles = {
       'MembiOS' => ["MembiOS/Resources/**/*.{xcassets,strings,OTF,json,pem}","MembiOS/UI/**/*.xib"]
   }
 
   spec.ios.frameworks = 'UIKit'
-
-
-  # Removed architecture for simulator
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386 armv7' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386 armv7' }
-  spec.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386 armv7' }
-
-  # Removed architecture for device
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7 x86_64' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7 x86_64' }
-
   
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
   spec.ios.vendored_frameworks = 'MembiOS.xcframework'

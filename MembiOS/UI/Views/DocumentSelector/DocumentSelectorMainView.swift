@@ -47,6 +47,7 @@ class DocumentSelectorMainView: UIView {
 
     // MARK: - EVENTS
     @IBAction func actionTouchUpInside(_ sender: Any) {
+        Configuration.documentType = documentSelectorView.documentType
         delegate?.actionIntroViewTouchUpInside()
     }
 }
