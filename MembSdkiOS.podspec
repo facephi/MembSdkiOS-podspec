@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'MembSdkiOS'
-  spec.version          = '1.0.0.1'
+  spec.version          = '1.0.0.2'
   spec.summary          = 'A short description of MembSdkiOS.'
   spec.swift_version = '5.0'
 
@@ -52,7 +52,7 @@ TODO: Add long description of the pod here.
 
   
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
-  spec.ios.vendored_frameworks = "MembiOS.xcframework"
+  spec.ios.vendored_frameworks = "MembiOS.xcframework", "FPBExtractoriOS.xcframework"
 
   spec.dependency 'lottie-ios', '~> 3.3.0'
   spec.dependency 'FPhiNFCiOS', '~> 1.0.0'
