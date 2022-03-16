@@ -42,13 +42,13 @@ TODO: Add long description of the pod here.
 
 
   # Removed architecture for simulator
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
-  spec.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386 armv7' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386 armv7' }
+  spec.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386 armv7' }
 
   # Removed architecture for device
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7 x86_64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS' => 'armv7 x86_64' }
 
   
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
