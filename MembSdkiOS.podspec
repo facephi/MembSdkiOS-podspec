@@ -52,7 +52,7 @@ TODO: Add long description of the pod here.
 
   
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
-  spec.ios.vendored_frameworks = "MembiOS.xcframework", "FPBExtractoriOS.xcframework"
+  spec.ios.vendored_frameworks = 'MembiOS.xcframework', 'FPBExtractoriOS.xcframework'
 
   spec.dependency 'lottie-ios', '~> 3.3.0'
   spec.dependency 'FPhiNFCiOS', '~> 1.0.0'
