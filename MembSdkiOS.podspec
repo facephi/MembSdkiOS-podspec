@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   spec.ios.deployment_target = '13.0'
-  
-   spec.resource_bundles = {
-       'MembiOS' => ["MembiOS/Resources/**/*.{xcassets,strings,OTF,json,pem}","MembiOS/UI/**/*.xib"]
-   }
+
+  spec.resource_bundles = {
+      'MembiOS' => ["MembiOS/Resources/**/*.{xcassets,strings,OTF,json,pem}","MembiOS/UI/**/*.xib"]
+  }
 
   spec.ios.frameworks = 'UIKit'
   
@@ -45,3 +45,4 @@ TODO: Add long description of the pod here.
   spec.dependency 'FPhiNFCiOS', '~> 1.0.0'
   spec.dependency 'FPhiApiManager' , '~> 1.0.0'
   spec.dependency 'FPhiSelphIDWidgetiOS', '~> 1.12.1'
+end
