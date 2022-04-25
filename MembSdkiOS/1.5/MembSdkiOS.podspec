@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'MembSdkiOS'
-  spec.version          = '1.5'
+  spec.version          = '$VERSION_RELEASE'
   spec.summary          = 'A short description of MembSdkiOS.'
   spec.swift_version = '5.0'
 
