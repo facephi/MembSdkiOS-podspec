@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,142 +16,159 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TxQ-Vx-nye">
-                    <rect key="frame" x="8" y="59.999999999999972" width="398" height="487.33333333333326"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIy-R1-ed6">
+                    <rect key="frame" x="10" y="44" width="394" height="694"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultados" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5i5-Jp-FyG">
-                            <rect key="frame" x="0.0" y="0.0" width="398" height="20.333333333333332"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DNI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zK-OB-hCN">
-                            <rect key="frame" x="0.0" y="28.333333333333329" width="398" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="30" id="crD-7P-wiH"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDk-FF-KJw">
-                            <rect key="frame" x="0.0" y="66.333333333333314" width="398" height="80.666666666666686"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TxQ-Vx-nye">
+                            <rect key="frame" x="0.0" y="0.0" width="394" height="487.33333333333331"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tLo-XV-dir">
-                                    <rect key="frame" x="16" y="16.000000000000011" width="366" height="48.666666666666657"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONBOARDING EXITOSO" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxb-MT-bjO">
-                                            <rect key="frame" x="0.0" y="0.0" width="366" height="20.333333333333332"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Enhorabuena! El proceso ha sido completado" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyh-JR-V3N">
-                                            <rect key="frame" x="0.0" y="28.333333333333314" width="366" height="20.333333333333329"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstItem="Hyh-JR-V3N" firstAttribute="leading" secondItem="tLo-XV-dir" secondAttribute="leading" id="EsT-Tn-EeK"/>
-                                        <constraint firstItem="uxb-MT-bjO" firstAttribute="leading" secondItem="tLo-XV-dir" secondAttribute="leading" id="MfM-hX-O21"/>
-                                        <constraint firstAttribute="trailing" secondItem="uxb-MT-bjO" secondAttribute="trailing" id="am0-gl-qHa"/>
-                                        <constraint firstAttribute="trailing" secondItem="Hyh-JR-V3N" secondAttribute="trailing" id="pLN-uy-Yg6"/>
-                                    </constraints>
-                                </stackView>
-                            </subviews>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="trailing" secondItem="tLo-XV-dir" secondAttribute="trailing" constant="16" id="6kl-YN-b03"/>
-                                <constraint firstItem="tLo-XV-dir" firstAttribute="leading" secondItem="bDk-FF-KJw" secondAttribute="leading" constant="16" id="F0y-kd-hYd"/>
-                                <constraint firstAttribute="bottom" secondItem="tLo-XV-dir" secondAttribute="bottom" constant="16" id="SRN-FP-C2n"/>
-                                <constraint firstItem="tLo-XV-dir" firstAttribute="top" secondItem="bDk-FF-KJw" secondAttribute="top" constant="16" id="tBU-gS-FYm"/>
-                            </constraints>
-                        </view>
-                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="150" translatesAutoresizingMaskIntoConstraints="NO" id="1CL-cp-KyQ">
-                            <rect key="frame" x="0.0" y="154.99999999999997" width="398" height="332.33333333333326"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="366" placeholderIntrinsicHeight="20.333333333333329" text="DATOS OBTENIDOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnG-da-1BA">
-                                    <rect key="frame" x="16" y="15.999999999999998" width="366" height="20.333333333333329"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultados" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5i5-Jp-FyG">
+                                    <rect key="frame" x="0.0" y="0.0" width="394" height="20.333333333333332"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="150" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Njx-XK-Hsn">
-                                    <rect key="frame" x="0.0" y="52.333333333333314" width="398" height="280"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DNI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zK-OB-hCN">
+                                    <rect key="frame" x="0.0" y="28.333333333333329" width="394" height="30"/>
+                                    <color key="backgroundColor" name="aena.colorMembToolbar"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="crD-7P-wiH"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" name="aena.colorMembSuccessMessage"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDk-FF-KJw">
+                                    <rect key="frame" x="0.0" y="66.333333333333314" width="394" height="80.666666666666686"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="T33-K2-mPi" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="A8E-Ca-8dV" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="40" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="xco-ZW-pM4" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="80" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="vao-3l-dWS" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="120" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="QcL-LS-nge" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="160" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="gIH-sJ-5zU" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="200" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="HIQ-gI-gO8" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="240" width="398" height="40"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        </view>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tLo-XV-dir">
+                                            <rect key="frame" x="16" y="15.999999999999996" width="362" height="48.666666666666657"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ONBOARDING EXITOSO" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxb-MT-bjO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="362" height="20.333333333333332"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Enhorabuena! El proceso ha sido completado" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyh-JR-V3N">
+                                                    <rect key="frame" x="0.0" y="28.333333333333329" width="362" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="Hyh-JR-V3N" firstAttribute="leading" secondItem="tLo-XV-dir" secondAttribute="leading" id="EsT-Tn-EeK"/>
+                                                <constraint firstItem="uxb-MT-bjO" firstAttribute="leading" secondItem="tLo-XV-dir" secondAttribute="leading" id="MfM-hX-O21"/>
+                                                <constraint firstAttribute="trailing" secondItem="uxb-MT-bjO" secondAttribute="trailing" id="am0-gl-qHa"/>
+                                                <constraint firstAttribute="trailing" secondItem="Hyh-JR-V3N" secondAttribute="trailing" id="pLN-uy-Yg6"/>
+                                            </constraints>
+                                        </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </stackView>
+                                    <color key="backgroundColor" name="aena.colorMembMain"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="tLo-XV-dir" secondAttribute="trailing" constant="16" id="6kl-YN-b03"/>
+                                        <constraint firstItem="tLo-XV-dir" firstAttribute="leading" secondItem="bDk-FF-KJw" secondAttribute="leading" constant="16" id="F0y-kd-hYd"/>
+                                        <constraint firstAttribute="bottom" secondItem="tLo-XV-dir" secondAttribute="bottom" constant="16" id="SRN-FP-C2n"/>
+                                        <constraint firstItem="tLo-XV-dir" firstAttribute="top" secondItem="bDk-FF-KJw" secondAttribute="top" constant="16" id="tBU-gS-FYm"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="150" translatesAutoresizingMaskIntoConstraints="NO" id="1CL-cp-KyQ">
+                                    <rect key="frame" x="0.0" y="154.99999999999997" width="394" height="332.33333333333326"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="366" placeholderIntrinsicHeight="20.333333333333329" text="DATOS OBTENIDOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnG-da-1BA">
+                                            <rect key="frame" x="16" y="15.999999999999998" width="362" height="20.333333333333329"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="150" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Njx-XK-Hsn">
+                                            <rect key="frame" x="0.0" y="52.333333333333343" width="394" height="280"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="T33-K2-mPi" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="A8E-Ca-8dV" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="39.999999999999972" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="xco-ZW-pM4" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="79.999999999999972" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="vao-3l-dWS" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="119.99999999999997" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="QcL-LS-nge" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="159.99999999999997" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="gIH-sJ-5zU" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="199.99999999999997" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="HIQ-gI-gO8" customClass="ResultDataView" customModule="MembiOS" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="240" width="394" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" name="aena.colorMembMainCardBackground"/>
+                                    <constraints>
+                                        <constraint firstItem="Njx-XK-Hsn" firstAttribute="top" secondItem="fnG-da-1BA" secondAttribute="bottom" constant="16" id="33b-an-v9g"/>
+                                        <constraint firstAttribute="trailing" secondItem="Njx-XK-Hsn" secondAttribute="trailing" id="CLQ-e8-sYg"/>
+                                        <constraint firstAttribute="trailing" secondItem="fnG-da-1BA" secondAttribute="trailing" constant="16" id="I9P-sR-SIn"/>
+                                        <constraint firstItem="fnG-da-1BA" firstAttribute="leading" secondItem="1CL-cp-KyQ" secondAttribute="leading" constant="16" id="Y0a-0a-oax"/>
+                                        <constraint firstAttribute="bottom" secondItem="Njx-XK-Hsn" secondAttribute="bottom" id="ZVa-FG-2fk"/>
+                                        <constraint firstItem="fnG-da-1BA" firstAttribute="top" secondItem="1CL-cp-KyQ" secondAttribute="top" constant="16" id="c8f-qE-Vv5"/>
+                                        <constraint firstItem="Njx-XK-Hsn" firstAttribute="leading" secondItem="1CL-cp-KyQ" secondAttribute="leading" id="fYG-PG-WsW"/>
+                                    </constraints>
+                                </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstItem="Njx-XK-Hsn" firstAttribute="top" secondItem="fnG-da-1BA" secondAttribute="bottom" constant="16" id="33b-an-v9g"/>
-                                <constraint firstAttribute="trailing" secondItem="Njx-XK-Hsn" secondAttribute="trailing" id="CLQ-e8-sYg"/>
-                                <constraint firstAttribute="trailing" secondItem="fnG-da-1BA" secondAttribute="trailing" constant="16" id="I9P-sR-SIn"/>
-                                <constraint firstItem="fnG-da-1BA" firstAttribute="leading" secondItem="1CL-cp-KyQ" secondAttribute="leading" constant="16" id="Y0a-0a-oax"/>
-                                <constraint firstAttribute="bottom" secondItem="Njx-XK-Hsn" secondAttribute="bottom" id="ZVa-FG-2fk"/>
-                                <constraint firstItem="fnG-da-1BA" firstAttribute="top" secondItem="1CL-cp-KyQ" secondAttribute="top" constant="16" id="c8f-qE-Vv5"/>
-                                <constraint firstItem="Njx-XK-Hsn" firstAttribute="leading" secondItem="1CL-cp-KyQ" secondAttribute="leading" id="fYG-PG-WsW"/>
-                            </constraints>
-                        </view>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </stackView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </stackView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWI-QU-RQa">
-                    <rect key="frame" x="64" y="751" width="286" height="55"/>
-                    <color key="backgroundColor" red="0.38431372549999998" green="0.0" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="55" id="lPV-zV-Ls5"/>
+                        <constraint firstAttribute="trailing" secondItem="TxQ-Vx-nye" secondAttribute="trailing" id="2xv-S5-RQH"/>
+                        <constraint firstAttribute="bottom" secondItem="TxQ-Vx-nye" secondAttribute="bottom" id="GyT-5g-NoA"/>
+                        <constraint firstItem="TxQ-Vx-nye" firstAttribute="top" secondItem="wIy-R1-ed6" secondAttribute="top" id="YQa-Ve-n54"/>
+                        <constraint firstItem="TxQ-Vx-nye" firstAttribute="width" secondItem="wIy-R1-ed6" secondAttribute="width" id="mfB-KL-Ryb"/>
+                        <constraint firstItem="TxQ-Vx-nye" firstAttribute="leading" secondItem="wIy-R1-ed6" secondAttribute="leading" id="oWO-Q1-nDe"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="Adm-7m-Zmy"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="a6s-7m-HDH"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWI-QU-RQa">
+                    <rect key="frame" x="64" y="758" width="286" height="48"/>
+                    <color key="backgroundColor" name="aena.colorMembMain"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="lPV-zV-Ls5"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" name="aena.colorMembButtonText"/>
+                    </state>
                     <connections>
                         <action selector="actionTouchUpInside:" destination="iN0-l3-epB" eventType="touchUpInside" id="dBM-CS-ZXN"/>
                     </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" name="aena.colorMembMainBackground"/>
             <constraints>
-                <constraint firstItem="TxQ-Vx-nye" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="2i3-ZA-e1J"/>
                 <constraint firstItem="IWI-QU-RQa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="64" id="IT4-tl-5h2"/>
+                <constraint firstItem="IWI-QU-RQa" firstAttribute="top" secondItem="wIy-R1-ed6" secondAttribute="bottom" constant="20" id="If3-Pl-GUP"/>
+                <constraint firstItem="wIy-R1-ed6" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="MwN-aH-YZy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wIy-R1-ed6" secondAttribute="trailing" constant="10" id="NXi-40-H3J"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IWI-QU-RQa" secondAttribute="trailing" constant="64" id="OhI-UC-Nj3"/>
-                <constraint firstItem="IWI-QU-RQa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="TxQ-Vx-nye" secondAttribute="bottom" priority="750" constant="8" id="SJi-AG-glx"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="IWI-QU-RQa" secondAttribute="bottom" priority="250" constant="56" id="Ysn-Ph-frZ"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TxQ-Vx-nye" secondAttribute="trailing" constant="8" id="jJp-Iu-diB"/>
-                <constraint firstItem="TxQ-Vx-nye" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="lNV-an-osn"/>
-                <constraint firstItem="TxQ-Vx-nye" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" priority="750" constant="16" id="pKD-dy-bRW"/>
+                <constraint firstItem="wIy-R1-ed6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="rgi-7m-vN4"/>
             </constraints>
             <connections>
                 <outlet property="actionButton" destination="IWI-QU-RQa" id="6co-Ng-eNg"/>
@@ -172,7 +190,48 @@
             <point key="canvasLocation" x="130.43478260869566" y="112.5"/>
         </view>
     </objects>
+    <designables>
+        <designable name="A8E-Ca-8dV">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+        <designable name="HIQ-gI-gO8">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+        <designable name="QcL-LS-nge">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+        <designable name="T33-K2-mPi">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+        <designable name="gIH-sJ-5zU">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+        <designable name="vao-3l-dWS">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+        <designable name="xco-ZW-pM4">
+            <size key="intrinsicContentSize" width="359" height="40"/>
+        </designable>
+    </designables>
     <resources>
+        <namedColor name="aena.colorMembButtonText">
+            <color red="0.10196078431372549" green="0.15294117647058825" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="aena.colorMembMain">
+            <color red="0.58823529411764708" green="0.80784313725490198" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="aena.colorMembMainBackground">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="aena.colorMembMainCardBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="aena.colorMembSuccessMessage">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="aena.colorMembToolbar">
+            <color red="0.10196078431372549" green="0.15294117647058825" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
