@@ -188,8 +188,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import FPhiSelphIDWidgetiOS;
-@import ObjectiveC;
+@import CoreGraphics;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -207,30 +207,43 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSCoder;
 
-
-SWIFT_CLASS("_TtC7MembiOS32SelphIDMockWidgetBiometryService")
-@interface SelphIDMockWidgetBiometryService : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC7MembiOS8BaseView")
+@interface BaseView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
 
 
-SWIFT_CLASS("_TtC7MembiOS28SelphIDWidgetBiometryService")
-@interface SelphIDWidgetBiometryService : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC7MembiOS10HeaderView")
+@interface HeaderView : BaseView
 @end
 
-@class NSDate;
+@class NSNumber;
+
+SWIFT_CLASS("_TtC7MembiOS19PickerViewContainer")
+@interface PickerViewContainer : UIView
+@property (nonatomic, getter=isHidden) BOOL hidden;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIPickerView;
 @class NSString;
 
-@interface SelphIDWidgetBiometryService (SWIFT_EXTENSION(MembiOS)) <FPhiSelphIDWidgetProtocol>
-- (void)CaptureFinished;
-- (void)CaptureCancelled;
-- (void)CaptureTimeout;
-- (void)CaptureFailed:(NSError * _Null_unspecified)error;
-- (void)onEvent:(NSDate * _Null_unspecified)time type:(NSString * _Null_unspecified)type info:(NSString * _Null_unspecified)info;
+@interface PickerViewContainer (SWIFT_EXTENSION(MembiOS)) <UIPickerViewDelegate>
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nonnull)pickerView:(UIPickerView * _Nonnull)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView * _Nullable)view SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface PickerViewContainer (SWIFT_EXTENSION(MembiOS)) <UIPickerViewDataSource>
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
