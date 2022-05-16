@@ -62,3 +62,10 @@
 "Process closure" = "Process closure";
 "You cannot continue the process because you are a minor" = "You cannot continue the process because you are a minor";
 "Accept" = "Accept";
+"Remove any items that obstruct your face:" = "Remove any items that obstruct your face:";
+"Hair" = "Hair";
+"Mask" = "Mask";
+"Glasses" = "Glasses";
+"Configuration" = "Configuration";
+"AllowCameraAccess" = "Allow Camera Access";
+"CameraAccessIsRequiredToMakeFullUseOfThisApp" = "So that you may make a capture of your document and a selfie";

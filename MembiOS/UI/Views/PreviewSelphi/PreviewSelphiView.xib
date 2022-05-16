@@ -22,10 +22,10 @@
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXG-Rv-2My" userLabel="Retry Button">
-                    <rect key="frame" x="20" y="403" width="280" height="55"/>
+                    <rect key="frame" x="20" y="417" width="280" height="48"/>
                     <color key="backgroundColor" name="aena.colorMembMain"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="55" id="CdN-iK-D4R"/>
+                        <constraint firstAttribute="height" constant="48" id="CdN-iK-D4R"/>
                         <constraint firstAttribute="width" constant="280" id="NPI-GV-PPJ"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -35,11 +35,11 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zya-I1-0oe" userLabel="Done Button">
-                    <rect key="frame" x="20" y="473" width="280" height="55"/>
+                    <rect key="frame" x="20" y="480" width="280" height="48"/>
                     <color key="backgroundColor" name="aena.colorMembMain"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="280" id="Hq7-0t-szL"/>
-                        <constraint firstAttribute="height" constant="55" id="JWv-6F-49M"/>
+                        <constraint firstAttribute="height" constant="48" id="JWv-6F-49M"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" title="Button"/>

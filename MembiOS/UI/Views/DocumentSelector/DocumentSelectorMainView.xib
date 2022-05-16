@@ -47,15 +47,15 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyO-y5-Sj7">
-                    <rect key="frame" x="47.5" y="592" width="280" height="55"/>
-                    <color key="backgroundColor" name="primaryBackground"/>
+                    <rect key="frame" x="47.5" y="599" width="280" height="48"/>
+                    <color key="backgroundColor" name="aena.colorMembMain"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="280" id="AJR-X4-mya"/>
-                        <constraint firstAttribute="height" constant="55" id="RX3-M1-mBK"/>
+                        <constraint firstAttribute="height" constant="48" id="RX3-M1-mBK"/>
                     </constraints>
                     <color key="tintColor" name="white"/>
                     <state key="normal" title="Button">
-                        <color key="titleColor" name="white"/>
+                        <color key="titleColor" name="aena.colorMembButtonText"/>
                     </state>
                     <connections>
                         <action selector="actionTouchUpInside:" destination="iN0-l3-epB" eventType="touchUpInside" id="22j-v2-MZB"/>
@@ -99,8 +99,11 @@
         </designable>
     </designables>
     <resources>
-        <namedColor name="primaryBackground">
-            <color red="0.36470588235294116" green="0.24313725490196078" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="aena.colorMembButtonText">
+            <color red="0.10196078431372549" green="0.15294117647058825" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="aena.colorMembMain">
+            <color red="0.58823529411764708" green="0.80784313725490198" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="white">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
