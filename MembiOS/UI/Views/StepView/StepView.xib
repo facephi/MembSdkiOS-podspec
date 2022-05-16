@@ -32,16 +32,16 @@
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JW4-vK-CXd" userLabel="Step Stack View">
-                    <rect key="frame" x="93.5" y="124" width="227.5" height="226"/>
+                    <rect key="frame" x="93.5" y="153.5" width="227.5" height="51"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" ambiguous="YES" text="Paso X de Y:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="OGb-o1-s3J">
-                            <rect key="frame" x="73.5" y="0.0" width="80" height="195.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Paso X de Y:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="OGb-o1-s3J">
+                            <rect key="frame" x="73.5" y="0.0" width="80" height="20.5"/>
                             <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="16"/>
                             <color key="textColor" name="titleFont"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" ambiguous="YES" text="Lectura de Documento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdm-2i-Bgo">
-                            <rect key="frame" x="0.0" y="195.5" width="227.5" height="30.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Lectura de Documento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdm-2i-Bgo">
+                            <rect key="frame" x="0.0" y="20.5" width="227.5" height="30.5"/>
                             <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="24"/>
                             <color key="textColor" name="titleFont"/>
                             <nil key="highlightedColor"/>
@@ -49,20 +49,17 @@
                     </subviews>
                 </stackView>
                 <view contentMode="scaleToFill" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="HGz-l2-rFr" customClass="AnimationView" customModule="Lottie">
-                    <rect key="frame" x="32" y="350" width="350" height="350"/>
+                    <rect key="frame" x="32" y="204.5" width="350" height="350"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="HGz-l2-rFr" secondAttribute="height" multiplier="1:1" id="KRb-hY-ghp"/>
                     </constraints>
                 </view>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SzT-wl-iJ3" userLabel="Info Stack View">
-                    <rect key="frame" x="20" y="700" width="374" height="50"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SzT-wl-iJ3" userLabel="Info Stack View">
+                    <rect key="frame" x="20" y="554.5" width="374" height="195.5"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtE-4Y-0Di">
-                            <rect key="frame" x="88" y="0.0" width="198" height="50"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="50" id="J7P-CI-9wI"/>
-                            </constraints>
+                            <rect key="frame" x="88" y="0.0" width="198" height="195.5"/>
                             <string key="text">Retira cualquier elemento 
 que obstruya tu cara</string>
                             <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="18"/>

@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MembiOS
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MembiOS
 import Combine
 import FPhiSelphIDWidgetiOS
 import Foundation
@@ -61,7 +61,7 @@ public protocol ToolBarDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PickerViewContainer : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var isHidden: Swift.Bool {
     @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set(value)
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc deinit
   @_Concurrency.MainActor(unsafe) public func configure(toolbarDelegate: MembiOS.ToolBarDelegate, elementsArray: [Swift.String], overlayedView: UIKit.UIView? = nil)
@@ -384,3 +384,25 @@ public protocol HeaderViewDelegate {
   @_Concurrency.MainActor(unsafe) public var delegate: MembiOS.HeaderViewDelegate?
   @objc deinit
 }
+extension MembiOS.R.Image : Swift.Equatable {}
+extension MembiOS.R.Image : Swift.Hashable {}
+extension MembiOS.R.Image : Swift.RawRepresentable {}
+extension MembiOS.R.Font : Swift.Equatable {}
+extension MembiOS.R.Font : Swift.Hashable {}
+extension MembiOS.R.Font : Swift.RawRepresentable {}
+extension MembiOS.WidgetServiceError : Swift.Equatable {}
+extension MembiOS.WidgetServiceError : Swift.Hashable {}
+extension MembiOS.DocumentType : Swift.Equatable {}
+extension MembiOS.DocumentType : Swift.Hashable {}
+extension MembiOS.DocumentType : Swift.RawRepresentable {}
+extension MembiOS.ResultCode : Swift.Equatable {}
+extension MembiOS.ResultCode : Swift.Hashable {}
+extension MembiOS.ResultCode : Swift.RawRepresentable {}
+extension MembiOS.R.Style : Swift.Equatable {}
+extension MembiOS.R.Style : Swift.Hashable {}
+extension MembiOS.R.Color : Swift.Equatable {}
+extension MembiOS.R.Color : Swift.Hashable {}
+extension MembiOS.R.Color : Swift.RawRepresentable {}
+extension MembiOS.R.Dimension : Swift.Equatable {}
+extension MembiOS.R.Dimension : Swift.Hashable {}
+extension MembiOS.R.Dimension : Swift.RawRepresentable {}
