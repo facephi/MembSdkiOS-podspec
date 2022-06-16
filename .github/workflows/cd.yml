@@ -23,6 +23,6 @@ jobs:
     - name: Deploy to Cocoapods
       run: |
         set -eo pipefail 
-        pod trunk push MembSdkiOS.podspec --allow-warnings
+        pod trunk push MembSdkiOS.podspec --allow-warnings --skip-import-validationgit a
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
