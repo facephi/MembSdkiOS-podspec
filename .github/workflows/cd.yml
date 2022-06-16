@@ -16,7 +16,6 @@ on:
 jobs:
   deploy_pod_Memb:
     runs-on: macos-latest
-    needs: update-frameworks-pods
     steps:
     - uses: actions/checkout@v2
     - name: Install Cocoapods
