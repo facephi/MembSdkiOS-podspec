@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'MembSdkiOS'
-  spec.version          = '1.5'
+  spec.version          = '3.0'
   spec.summary          = 'A short description of MembSdkiOS.'
   spec.swift_version = '5.0'
 
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   spec.ios.vendored_frameworks = 'MembiOS.xcframework'
 
   spec.dependency 'lottie-ios', '~> 3.3.0'
-  spec.dependency 'FPhiNFCiOS', '~> 1.0.0'
+  spec.dependency 'FPhiNFCiOS', '~> 2.2.2'
   spec.dependency 'FPhiApiManager' , '~> 1.0.0'
-  spec.dependency 'FPhiSelphIDWidgetiOS', '~> 1.12.1'
+  spec.dependency 'FPhiSelphIDWidgetiOS', '~> 1.13.2'
 end
