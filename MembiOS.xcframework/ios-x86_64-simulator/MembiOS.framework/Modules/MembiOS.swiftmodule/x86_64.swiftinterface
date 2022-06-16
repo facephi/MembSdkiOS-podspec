@@ -17,7 +17,7 @@ extension Foundation.Bundle {
   }
 }
 extension MembiOS.R {
-  public enum Image : Swift.String {
+  public enum Image : Swift.String, Swift.CaseIterable {
     case imageNotFound
     case logo
     case close
@@ -48,7 +48,11 @@ extension MembiOS.R {
     case iconHair
     case iconGlasses
     public init?(rawValue: Swift.String)
+    public typealias AllCases = [MembiOS.R.Image]
     public typealias RawValue = Swift.String
+    public static var allCases: [MembiOS.R.Image] {
+      get
+    }
     public var rawValue: Swift.String {
       get
     }
@@ -81,16 +85,12 @@ extension MembiOS.PickerViewContainer : UIKit.UIPickerViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, viewForRow row: Swift.Int, forComponent component: Swift.Int, reusing view: UIKit.UIView?) -> UIKit.UIView
 }
 extension MembiOS.R {
-  public enum Font : Swift.String, Swift.CaseIterable {
+  public enum Font : Swift.String {
     case bold
     case regular
     case semiBold
     public init?(rawValue: Swift.String)
-    public typealias AllCases = [MembiOS.R.Font]
     public typealias RawValue = Swift.String
-    public static var allCases: [MembiOS.R.Font] {
-      get
-    }
     public var rawValue: Swift.String {
       get
     }
@@ -114,13 +114,6 @@ public struct ScanNfcObject {
 @_hasMissingDesignatedInitializers final public class SendNfcUseCase {
   final public func execute(data: MembiOS.ScanNfcObject, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, Swift.Error> = CombineHelper.emptySink())
   @objc deinit
-}
-public struct SelfiTrackingResponse : Swift.Decodable {
-  public let succeeded: Swift.Bool
-  public let alive: Swift.Bool
-  public let match: Swift.Bool
-  public let enrolled: Swift.Bool
-  public init(from decoder: Swift.Decoder) throws
 }
 public struct ScanMrzObject {
   public let mrzString: Swift.String
@@ -157,11 +150,12 @@ public enum R {
 }
 @_hasMissingDesignatedInitializers final public class StyleHelper {
   public struct TextAttributes {
+    public init(font: UIKit.UIFont? = nil, color: UIKit.UIColor? = nil, backgroundColor: UIKit.UIColor? = nil, cornerRadius: CoreGraphics.CGFloat? = nil, borderColor: UIKit.UIColor? = nil, borderWidth: CoreGraphics.CGFloat? = nil, tintColor: UIKit.UIColor? = nil, gradientColors: [UIKit.UIColor]? = nil, gradientHorizontal: Swift.Bool = true, gradientLocations: [Foundation.NSNumber]? = nil, icon: UIKit.UIImage? = nil, height: CoreGraphics.CGFloat? = nil)
   }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class SendFaceMatchUseCase {
-  final public func execute(data: Swift.String, sinkHandler: Combine.Subscribers.Sink<MembiOS.SelfiTrackingResponse, Swift.Error> = CombineHelper.emptySink())
+  final public func execute(data: Swift.String, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, Swift.Error> = CombineHelper.emptySink())
   @objc deinit
 }
 public protocol ScanFaceDelegate {
@@ -186,7 +180,7 @@ public protocol ScanNfcDelegate {
   @objc deinit
 }
 extension MembiOS.ScanNfcUseCase {
-  final public func execute(docType: MembiOS.DocumentType, mrzKey: Swift.String, delegate: MembiOS.ScanNfcDelegate)
+  final public func execute(documentNumber: Swift.String, birthDate: Swift.String, expirationDate: Swift.String, delegate: MembiOS.ScanNfcDelegate)
 }
 public enum WidgetServiceError : Swift.Error {
   case cancelled
@@ -230,6 +224,9 @@ extension MembiOS.ThemeAena : MembiOS.ThemeProtocol {
   public var colors: [MembiOS.R.Color : UIKit.UIColor?] {
     get
   }
+  public var animations: [MembiOS.R.Animation : Swift.String] {
+    get
+  }
 }
 public enum ResultCode : Swift.Int {
   case CANCEL
@@ -247,6 +244,28 @@ public struct MembSdkResponse {
   public var documentIssuer: Swift.String
   public var documentNumber: Swift.String
   public func toString() -> Swift.String
+}
+extension MembiOS.R {
+  public enum Animation : Swift.String, Swift.CaseIterable {
+    case intro_mrz_document
+    case intro_mrz_passport
+    case intro_nfc_document
+    case intro_nfc_passport
+    case intro_selfie
+    case read_nfc_error
+    case read_nfc_intro
+    case read_nfc_processing
+    case read_nfc_success
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [MembiOS.R.Animation]
+    public typealias RawValue = Swift.String
+    public static var allCases: [MembiOS.R.Animation] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
 }
 extension MembiOS.R {
   public enum Style {
@@ -317,7 +336,7 @@ extension MembiOS.DocumentType {
   @objc deinit
 }
 extension MembiOS.R {
-  public enum Color : Swift.String {
+  public enum Color : Swift.String, Swift.CaseIterable {
     case colorMembMain
     case colorMembMainBackground
     case colorMembMainCardBackground
@@ -330,7 +349,11 @@ extension MembiOS.R {
     case colorMembBodyText
     case colorMembSuccessMessage
     public init?(rawValue: Swift.String)
+    public typealias AllCases = [MembiOS.R.Color]
     public typealias RawValue = Swift.String
+    public static var allCases: [MembiOS.R.Color] {
+      get
+    }
     public var rawValue: Swift.String {
       get
     }
@@ -343,6 +366,7 @@ public protocol ThemeProtocol {
   var styles: [MembiOS.R.Style : MembiOS.StyleHelper.TextAttributes] { get }
   var images: [MembiOS.R.Image : UIKit.UIImage?] { get }
   var colors: [MembiOS.R.Color : UIKit.UIColor?] { get }
+  var animations: [MembiOS.R.Animation : Swift.String] { get }
 }
 public protocol ScanMrzDelegate {
   func successResponse(response: MembiOS.ScanMrzObject)
@@ -398,6 +422,9 @@ extension MembiOS.DocumentType : Swift.RawRepresentable {}
 extension MembiOS.ResultCode : Swift.Equatable {}
 extension MembiOS.ResultCode : Swift.Hashable {}
 extension MembiOS.ResultCode : Swift.RawRepresentable {}
+extension MembiOS.R.Animation : Swift.Equatable {}
+extension MembiOS.R.Animation : Swift.Hashable {}
+extension MembiOS.R.Animation : Swift.RawRepresentable {}
 extension MembiOS.R.Style : Swift.Equatable {}
 extension MembiOS.R.Style : Swift.Hashable {}
 extension MembiOS.R.Color : Swift.Equatable {}
