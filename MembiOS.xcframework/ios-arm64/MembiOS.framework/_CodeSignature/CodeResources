@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/ApiManager.framework/ApiManager</key>
 		<data>
-		Hdro+fDOVlpnpEI9IDHDHWEw2NA=
+		CBXPXiBY0SvX5Du9gUtdtyWh3as=
 		</data>
 		<key>Frameworks/ApiManager.framework/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/FPBExtractoriOS.framework/FPBExtractoriOS</key>
 		<data>
-		xwBZ2lWXuSwriqGCT+QDfOSZA+E=
+		kpUU1AxSMxmQKZCGcpYpzi488UI=
 		</data>
 		<key>Frameworks/FPBExtractoriOS.framework/Info.plist</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader</key>
 		<data>
-		Z6cDGOz1098pYYdVhDuNbGd5Rns=
+		7nfMwoqcVc6t9FIBPB9fgTrovTw=
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/Info.plist</key>
 		<data>
@@ -77,7 +77,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QIIwgZKl782NtJK2syLDA6XQjYY=
+			jzpWjZFABlPN6eqiXnBe6Ifw564=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zEC3CG7AMYXQI1D+SJahMFMZngs=
+			wXKodMUduuWfXsXblccIirjPVcg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jg2IXgorlge378iVXe5AI3Ld3cw=
+			zfso4aGjM317Tj3iXZzK0QCiEq4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eYof82im5jHR3alz92VaeDgjiVo=
+		FkIj4OkM2vx0MI4+RL4Ea73SYT8=
 		</data>
 		<key>HeaderCloseButtonView.nib</key>
 		<data>
@@ -403,7 +403,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aKep1QrPs10LN6hzbiunI2BxRgcD99rh6vl5s8bj1+s=
+			Gdec7o2ris6pYvmE6rmyuIT8tmR2JQQasEUS9ii2Tgw=
 			</data>
 		</dict>
 		<key>Frameworks/ApiManager.framework/Info.plist</key>
@@ -424,7 +424,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Smu/1dSe9dE2WRYZ3uytTpMEFFjG1pxj5L6ATVgCwRo=
+			54cucpJtvztzcv07EF+TiBcRdPE185MKKkhbc5G4r0I=
 			</data>
 		</dict>
 		<key>Frameworks/FPBExtractoriOS.framework/Info.plist</key>
@@ -452,7 +452,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bclskgdsO/2dqAfYh7H1VxyYhwd+o1Ey1CSLsIF36Rc=
+			16S7M9TyP2f9AonLNZqJf8pdH5Lz7ig/VERH54u+EpA=
 			</data>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/Info.plist</key>
@@ -475,7 +475,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEbFP6CNQU18/BRhnZ+iukzPvrhfzXgJIhkadbjWU+s=
+			AquuPce7p/AWH4nuxytV7yFinQj79T7rXL6LnTP7x+4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -498,7 +498,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P9+1NtFSERVQVUyaXBwF3ehcqSbXx1+qZmrF2vCjC94=
+			A4ASvyrchUP+gdHFLEq78QQewaSskQWSKMRL/cGivro=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -507,7 +507,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2l2+YMhM5i7kV04u5OT/iUKpdRSOOmem6gQ9XG5LcvI=
+			azL+rvX9ISUwxXrMvWRsVrEgCecGEAmfMiCkYLyeMVs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -516,7 +516,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3UQEz9VkANYR2PZCR8VJTbe1hKc1VLm4vEED3EA0XUk=
+			JKRStLf2gt84Y/1Pr1fiDhje81d4HPmcAItDjTVizqo=
 			</data>
 		</dict>
 		<key>HeaderCloseButtonView.nib</key>

@@ -58,7 +58,7 @@
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader</key>
 		<data>
-		HGaOD3hHS4aJz9GQDT4wiyxJHxs=
+		uIEvGbNB5dHNYFWMKEB+hzvGajg=
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/Info.plist</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		6OTH8ZZgeuDIqcgujpUaPFoNIzc=
+		3xrXdcNmqx3fM/izQcPYpTpbf88=
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		EJNH3wn8MyRVXsu2fZ+Qx1NaeJ0=
+		sGkfXj045W8kwE/oi5kuLpUnVI8=
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		h17hyxP6cWbKlEeGQtEziUOVG0A=
+		BGCWW03886VwcwQ1RtPXDJNve90=
 		</data>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QIIwgZKl782NtJK2syLDA6XQjYY=
+			jzpWjZFABlPN6eqiXnBe6Ifw564=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zEC3CG7AMYXQI1D+SJahMFMZngs=
+			wXKodMUduuWfXsXblccIirjPVcg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -123,14 +123,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jg2IXgorlge378iVXe5AI3Ld3cw=
+			zfso4aGjM317Tj3iXZzK0QCiEq4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/_CodeSignature/CodeResources</key>
 		<data>
-		E0bvAAPtnLhf0Jzepb26uKArxKs=
+		CRnRElO4zbrUHlKMTnVEboTInY4=
 		</data>
 		<key>HeaderCloseButtonView.nib</key>
 		<data>
@@ -512,7 +512,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A2FcvCYST07lnXpzIEYRlHKw9gYW5yg8ji+Ie4B5m0U=
+			5Hbn8ZLZmloMcH2qbdDY1OXA5Y1aW074c1K53ATOZaE=
 			</data>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/Info.plist</key>
@@ -526,7 +526,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t09AHzpUd/dtC6zhkgQmWheYG6dZvd+CASSO/ecih7o=
+			ZJsfSCBQs1RkuV6XgtGAHXO5YbFEvpL/bxazpY1msCE=
 			</data>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeRequirements</key>
@@ -540,14 +540,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yTuDa2yCoYNM7hc2ZOK7qVleGgQUbmBXHC6ubJaZy4w=
+			8RyQy7dv3bXNo0IoitVN6kGM8WQLufCOw8JxheFbIQg=
 			</data>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QA+GGbJOOFR6c1PxUe+pnDjncb3FQtA9qCKgA6xwlT0=
+			qwlxhwFqBvXQxW/bNfVOeM8LGUktS00iY7YUaiyezyA=
 			</data>
 		</dict>
 		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/_CodeSignature/CodeSignature</key>
@@ -570,7 +570,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEbFP6CNQU18/BRhnZ+iukzPvrhfzXgJIhkadbjWU+s=
+			AquuPce7p/AWH4nuxytV7yFinQj79T7rXL6LnTP7x+4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -593,7 +593,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P9+1NtFSERVQVUyaXBwF3ehcqSbXx1+qZmrF2vCjC94=
+			A4ASvyrchUP+gdHFLEq78QQewaSskQWSKMRL/cGivro=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -602,7 +602,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2l2+YMhM5i7kV04u5OT/iUKpdRSOOmem6gQ9XG5LcvI=
+			azL+rvX9ISUwxXrMvWRsVrEgCecGEAmfMiCkYLyeMVs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -611,7 +611,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RJT7SSXDDkP9uRAFXYi1C5xNaXvn4ouICQjntK+hWnU=
+			/OEI0qRkjvcT/L0+Qca2VFO4JqxGEGy7akjXDN4CVQQ=
 			</data>
 		</dict>
 		<key>HeaderCloseButtonView.nib</key>
