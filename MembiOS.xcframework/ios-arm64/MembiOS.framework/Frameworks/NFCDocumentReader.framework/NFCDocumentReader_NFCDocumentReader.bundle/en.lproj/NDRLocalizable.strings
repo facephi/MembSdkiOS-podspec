@@ -1,0 +1,7 @@
+"text_intro_chip_state_waiting_tag_text" = "Bring your device closer to the document";
+"text_chip_security_enable_nfc_title" = "Please enable NFC to continue";
+"text_error_retrieving_document_data" = "An error happened while trying to retrieve the document's data";
+"text_nfc_read_successfull_title" = "NFC read successfully";
+"text_intro_chip_state_fail" = "The NFC could not be read";
+"text_diagnostic_NFC_timeout_description" = "You have exceeded the NFC read time. Please try again";
+"text_chip_duplicated_session_error" = "Duplicated scan session, please try again after this message is dismissed";
