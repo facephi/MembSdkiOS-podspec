@@ -6,31 +6,43 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fim08zmoB6wqGqiym8UljeCxZc4=
+		WDcs3uwYdpfh62+jUDSR9kkggSY=
 		</data>
 		<key>DiagnosisView.nib</key>
 		<data>
-		kqO+WM6w0jUfIIass/tdT+QuqVo=
+		KC0tk3r9Dvqbon5I50Uen9rnlTg=
 		</data>
 		<key>DocumentSelectorInfoView.nib</key>
 		<data>
-		JPQjI/F9GCTENitvRoCogM87jFg=
+		erZ1HjqmZTw9s9QUnbTT8bdif3Y=
 		</data>
 		<key>DocumentSelectorMainView.nib</key>
 		<data>
-		os12ed80TUv1P9TfxqVa16TVXDA=
+		JpDzhelzyiXDuKfJMgUteHvmbDI=
 		</data>
 		<key>DocumentSelectorSelectView.nib</key>
 		<data>
-		ALkd2tQGdo7dlk5p1xOmHFD54fg=
+		OLKsUYcToVVe09f5EkuqPv1rVwI=
 		</data>
 		<key>FailureView.nib</key>
 		<data>
-		SViPKDQxUYy00RHPqaRNsNYOq08=
+		nJYAmcJxXG8YdUOF4Q4hT5b33Z4=
+		</data>
+		<key>Frameworks/ApiManager.framework/ApiManager</key>
+		<data>
+		CBXPXiBY0SvX5Du9gUtdtyWh3as=
+		</data>
+		<key>Frameworks/ApiManager.framework/Info.plist</key>
+		<data>
+		4niNSO2pLAMl7cRlhjU7s5YvhlY=
+		</data>
+		<key>Frameworks/ApiManager.framework/_CodeSignature/CodeResources</key>
+		<data>
+		HvO1bg2z7e+W9Sz1oMhKnvQ25GQ=
 		</data>
 		<key>Frameworks/FPBExtractoriOS.framework/FPBExtractoriOS</key>
 		<data>
-		yI5ZX5jE06rfWw6ydXPDRYCBSiU=
+		kpUU1AxSMxmQKZCGcpYpzi488UI=
 		</data>
 		<key>Frameworks/FPBExtractoriOS.framework/Info.plist</key>
 		<data>
@@ -40,37 +52,153 @@
 		<data>
 		N331bBFv+AcwIqKnbs1FhtvGwBg=
 		</data>
-		<key>Frameworks/libApiManager.a</key>
+		<key>Frameworks/NFCDocumentReader.framework/Info.plist</key>
 		<data>
-		n4EpYRMapREPL/CQJRI4QpldVKU=
+		J9terrZcGTo0IS8LdsjCTYjl8tY=
 		</data>
-		<key>Frameworks/libNFCDocumentReader.a</key>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader</key>
 		<data>
-		Az+3hsX+nPgx8/SThhZ/ZzE0t8Y=
+		7nfMwoqcVc6t9FIBPB9fgTrovTw=
+		</data>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/Info.plist</key>
+		<data>
+		bgIq4ApFVZ+Bq/kpd+xX78GPddQ=
+		</data>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/en.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rTblCAroQYBNgDokSLN6ICnS6TY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/es.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jzpWjZFABlPN6eqiXnBe6Ifw564=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/masterListESP.pem</key>
+		<data>
+		CGxRWsmEtlISrlV06rMmv+7WD1Y=
+		</data>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/masterListICAO.pem</key>
+		<data>
+		vx4NZ2m3RvvA98T5oZ9t3zVN2Nk=
+		</data>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/pt-BR.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wXKodMUduuWfXsXblccIirjPVcg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/pt-PT.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zfso4aGjM317Tj3iXZzK0QCiEq4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/_CodeSignature/CodeResources</key>
+		<data>
+		FkIj4OkM2vx0MI4+RL4Ea73SYT8=
 		</data>
 		<key>HeaderCloseButtonView.nib</key>
 		<data>
-		BWfqXRCM+D1PYc0zOyGVyQd9LoE=
+		PZfLxiIG4R46z7M6+QZFqQar0+I=
 		</data>
 		<key>HeaderView.nib</key>
 		<data>
-		I5y4f7oF1/5YSBSRdpBL2zU3Xc4=
+		6LwGtbvDfTYU/NaAGQVIzweVRMw=
 		</data>
 		<key>Headers/MembiOS-Swift.h</key>
 		<data>
-		J6zGQDjvIIQ7lqytVttDuzLmteo=
+		n1qY9kmwHIeEuHqorqXPoj4WnDw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Cos7iMmwQDfIJGeuFM+VCEBP4eE=
+		Lcu/7Mqqyh6ITo6B1sopN9fWwPM=
 		</data>
 		<key>InfoAcceptedDocsView.nib</key>
 		<data>
-		TDryo3F3VwUa9yqryAhnjf06FU0=
+		ftJeaqa52DcnpzAyBC7KieCIbMM=
+		</data>
+		<key>KoreanOCRResources.bundle/Info.plist</key>
+		<data>
+		LMrGt1DkA2gvdC6vEFIZ7rgSBJc=
+		</data>
+		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
+		<data>
+		6yAjFG4m90xpSmgqne5+m+vbH94=
+		</data>
+		<key>KoreanOCRResources.bundle/rpn_lstm_engine_tflite_ko_la.bincfg</key>
+		<data>
+		MtJnLAdmQSG1d64ulp4aPGEZ1EY=
+		</data>
+		<key>KoreanOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
+		<data>
+		6ny23cax5EGQNgpJKSnhJUhpxtQ=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_langid.tflite</key>
+		<data>
+		/LcQXDvm1hHXPLE3IVulrhpZePE=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.bincfg</key>
+		<data>
+		/6JbS7NQwz/Peq79BYFJUpDd3/I=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.class_lst</key>
+		<data>
+		qHDLtGTNKCI5p4o8dpcD7VLrczQ=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.conv_model</key>
+		<data>
+		Jp79zxvXUMimYItHP76CKUEiSEc=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.lstm_model</key>
+		<data>
+		eb8mPIUHVvFy/6HeFKNJdPw5NZ0=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
+		<data>
+		66UmXr+gf7XJ71vLnqjAwes9Mnw=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
+		<data>
+		68PK2+uslXMmEpqkRadeVy2t0PE=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
+		<data>
+		BQIj06B3MVer0TIFCE1lwPQqAQ8=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
+		<data>
+		oYS7+p9yJEEy3UOE1YgjDNNbLAM=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_script_detector_0.3.bincfg</key>
+		<data>
+		5MmtO8fgFZsFpMhfSx6SQO3xCPc=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_script_detector_0.3.conv_model</key>
+		<data>
+		fhAXDMdVrwuXF7oJd7GqC1q2Hlc=
+		</data>
+		<key>KoreanOCRResources.bundle/tflite_script_detector_0.3.lstm_model</key>
+		<data>
+		zci5bAUMLsNm5zn+xMeKJmtX8pE=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		04qE+uL2JogTBTqGpsIwQ9imyR0=
+		Q+5pF0gDZ712NVr+Y55JQO/BX5U=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -106,27 +234,15 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gl0cDcW9vzOccz/Xf0eF94/rqj0=
+		/4hhuL8lJZZya7UdgrnFjyU2yTs=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NlproFMGYEP6CdCgOegUreyiboI=
+		jRrcXKggdYKq8jTPAdOHL/432Sc=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HKhKYYImPbmSZA+HxQlIjPl55UU=
-		</data>
-		<key>Modules/MembiOS.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		gl0cDcW9vzOccz/Xf0eF94/rqj0=
-		</data>
-		<key>Modules/MembiOS.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		NlproFMGYEP6CdCgOegUreyiboI=
-		</data>
-		<key>Modules/MembiOS.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		HKhKYYImPbmSZA+HxQlIjPl55UU=
+		WAwSlckfJnVKG93HWpnfPthenEo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,15 +254,15 @@
 		</data>
 		<key>PreviewSelphiView.nib</key>
 		<data>
-		HBoNihr4jlMSgh7ICjGvmcO70UY=
+		f/HF2X+BjKncvKVu4PDFYRKTBYI=
 		</data>
 		<key>ProcessingView.nib</key>
 		<data>
-		J2506kffjFVqh93DY4ItmWtetGQ=
+		ABisXCPLgzFDt2PvDs5dVFTix+g=
 		</data>
 		<key>ResultDataView.nib</key>
 		<data>
-		2Nag7pynlGeJkczqwCFjzu8tp4U=
+		D9OYkireV6GQyVa1bYMtZhKSdms=
 		</data>
 		<key>SourceSansPro-Bold.ttf</key>
 		<data>
@@ -162,21 +278,21 @@
 		</data>
 		<key>SquareCardView.nib</key>
 		<data>
-		Vd7bhGRpMVrtrVYwOkyztpHU5dA=
+		y5B+l2Q1P7QIz2iDQ7Za86zug8E=
 		</data>
 		<key>StepView.nib</key>
 		<data>
-		kQesf+ocYDkF5tR4Jawsiv45Nvc=
+		ds5lsh9nzpNWo7kWSzz0NfwBEdE=
 		</data>
 		<key>SuccessView.nib</key>
 		<data>
-		5mXVtXjtIGlisOpdGMD2hkoKeVk=
+		JPZGWkITaLZb8nT1j9BXlisHkfs=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxNEiIkXrxnCvwgS/QrQ//DwiZE=
+			2FtSn570eLucBQhMUDHgR4DdxTk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -185,7 +301,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/SSC0s2wPCtQRy8+P706eDw1jJ4=
+			KEKXYaUuMH6u+W/44EgPZwY64hk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -200,7 +316,7 @@
 		</data>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
-		TE80aaYw+cM2R0ibs/Fl5zIYCBU=
+		7FM/R/R1O22YHBpcush6r0uQgQc=
 		</data>
 		<key>intro_mrz_document.json</key>
 		<data>
@@ -221,14 +337,6 @@
 		<key>intro_selfie.json</key>
 		<data>
 		FQ3Qe4dSr/CaMW6K5e94bcExE2A=
-		</data>
-		<key>masterListES.pem</key>
-		<data>
-		CGxRWsmEtlISrlV06rMmv+7WD1Y=
-		</data>
-		<key>masterListICAO.pem</key>
-		<data>
-		vx4NZ2m3RvvA98T5oZ9t3zVN2Nk=
 		</data>
 		<key>read_nfc_error.json</key>
 		<data>
@@ -253,49 +361,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nyQlef/2WWxUSWKaIG0eMhhNZG/8UP918Ln7NIW2utg=
+			AjKmZVL5j66SIksJ7MU2l8UjWZUglvVWaNPUoxWdDic=
 			</data>
 		</dict>
 		<key>DiagnosisView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qYRS0s3S3Ld9ajBtjfaMi1PD98KPpOsj5poC84ZX38I=
+			qCo+42Npt16FLltiQZS1ka+7T6updlMLpVjJ0MJC5Vs=
 			</data>
 		</dict>
 		<key>DocumentSelectorInfoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uN8OdmxmNouRn3MAC2BzThY4lSYYPIPn1axYTup4bQE=
+			//AzOys8FJ6cmqeUMHHYJhO62u8Ghmhkph8dzlmOvJ8=
 			</data>
 		</dict>
 		<key>DocumentSelectorMainView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ynxDlHQKqoHFnPenIdBo66kg99GSkYyGvX0l0DFnCC0=
+			zi8FfPcmNFuMXlEx9r9i0a627NoX0SrhL44qVKVl7IM=
 			</data>
 		</dict>
 		<key>DocumentSelectorSelectView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eod4rgz2Ii8k7iodQBoM+DAdupPwS44KZlGw1uqZi5U=
+			HA1RCQz4iKHEIKLw7g6ettqx6zCTMKAmS62guTpO0oM=
 			</data>
 		</dict>
 		<key>FailureView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c5FVLusb/vVzm4NFFIkc+O0nMplSlH9Rpwr8UGJ+sxA=
+			TEVjCVfe6pVnaFKch3gd0iNV8GTEX1mPHKvXsj7DUS8=
+			</data>
+		</dict>
+		<key>Frameworks/ApiManager.framework/ApiManager</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gdec7o2ris6pYvmE6rmyuIT8tmR2JQQasEUS9ii2Tgw=
+			</data>
+		</dict>
+		<key>Frameworks/ApiManager.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BBFJ3d3q87dhncotDlIpjY+iy+w/yxoV0CvE+UrnaKk=
+			</data>
+		</dict>
+		<key>Frameworks/ApiManager.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bcRaatSnpvMtBzbW3h8fXXlazeVPUm9394LjQNB2JHs=
 			</data>
 		</dict>
 		<key>Frameworks/FPBExtractoriOS.framework/FPBExtractoriOS</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y5+cwjWG69rcSjwP5WIsC/kOjFA88+3kUkWzL0H5N4g=
+			54cucpJtvztzcv07EF+TiBcRdPE185MKKkhbc5G4r0I=
 			</data>
 		</dict>
 		<key>Frameworks/FPBExtractoriOS.framework/Info.plist</key>
@@ -312,53 +441,229 @@
 			NiArD6ciNvZr6hBpHdlTO3eTgbLbMev4KSJ2SSTc1tA=
 			</data>
 		</dict>
-		<key>Frameworks/libApiManager.a</key>
+		<key>Frameworks/NFCDocumentReader.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gx7tHJUEzABr7dwUpx7tSUkVCcRF0+84fR96kwUqA2A=
+			+pSkWeAq+vpX9jrzflFKxafWz2WAZg8RRwMDz/24eXs=
 			</data>
 		</dict>
-		<key>Frameworks/libNFCDocumentReader.a</key>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XlngKnecMBmVvWTFwKwa9xp0WWyAIgu+jigUPQK8Q6s=
+			16S7M9TyP2f9AonLNZqJf8pdH5Lz7ig/VERH54u+EpA=
+			</data>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nyoc0lFTNiwacVgRdSA/ioAj1fuSa7QC5iYZdC+um5o=
+			</data>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/en.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S5aFspnQ+Y3Ujjrn8nIajJZx3ovSY+LxUoUGtjiQTmQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/es.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AquuPce7p/AWH4nuxytV7yFinQj79T7rXL6LnTP7x+4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/masterListESP.pem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ELE0t9T9obt0nOxLd4L2p5+xylD0lrnqpeLozFrr5kI=
+			</data>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/masterListICAO.pem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PeQdyV+lr7C+t8/qVuWq4EzfbGIGExPTdgq3XftawZU=
+			</data>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/pt-BR.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A4ASvyrchUP+gdHFLEq78QQewaSskQWSKMRL/cGivro=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/NFCDocumentReader_NFCDocumentReader.bundle/pt-PT.lproj/NDRLocalizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			azL+rvX9ISUwxXrMvWRsVrEgCecGEAmfMiCkYLyeMVs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NFCDocumentReader.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JKRStLf2gt84Y/1Pr1fiDhje81d4HPmcAItDjTVizqo=
 			</data>
 		</dict>
 		<key>HeaderCloseButtonView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w3tvsk6+zChafccyPHtlSZiwXLJabl7TAXMQDgukftI=
+			My5L/dVKvFKlRv93IBfPnMr9OOFmxDRGWkJnjy2ABYE=
 			</data>
 		</dict>
 		<key>HeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uCNcQf7wMlh+CO55CTMAEbESVqo2de7rMP+vOe3wKX4=
+			C1VAeX1M67pt/+4I0tYIUmNNiHb1QjXTPl73w1nLEbE=
 			</data>
 		</dict>
 		<key>Headers/MembiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B6jpSpePiGH8jmRkr1IJv5LszgKQ34Dwwlq8n4Eoa+s=
+			wWegr8XBqqNiCjRZsWkZJc8UlKh7S5KJVfTfW263wkQ=
 			</data>
 		</dict>
 		<key>InfoAcceptedDocsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gp7yYrE5cNwIC/xWFagK/jTGlc6JPXbmLuC6ThUQTg=
+			mP5f7nH+N3kgMyJ0nRBTav4OLxDAqRWPZBfWrfKdoAc=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8c4qNCiMNKKd+XYlbTa76qeToNe2doEvwJP2d5IjQpQ=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tpvc8662Im0N94ENXq3Or7x8hAR0Vw4PyB2I0fhpsLo=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/rpn_lstm_engine_tflite_ko_la.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6HhhPeZKIGLj8ZN+CDIaPxj4XMYr/7Fo777ylo0sT6g=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KQajsAlTNRgTxJFzQeGXEH7SqqwtF2UIkHWNwZAnHe4=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_langid.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f5Mfb3wd0OxZGs53gN+RZFpFD6/INQXz/0XOXvfIRBs=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VHEmDnRX+3F/+Tsc/h6XVmJa9b4BUyS7l7qjFrRW2/U=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.class_lst</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VwIl37uwXbi4/MQCVa257j5mn1M3c3W7SeY0uEIJu7c=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.conv_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			19DC90MWHrf2hBRuUTd77wne5A3iVPdnvS6BeBlL/YI=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_ko_0.1.lstm_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uj9W+Onm3FkN9xuqBR6gWpgGcegkwdrbS7Exjr9WM34=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oFDru3MHCMhVaoh3k7h/zhLun/pRevxSBccdRiS9e8c=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VRUPJ3nQeTbJ+/i+y7hWf+PqWta22UQkWClpWorpaPo=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZKunGbTtHuWz1IhsWq8LGsBRv1h56bCOhh4OKeIKCKc=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DtYuT74PxcQJCuxHOxNuGI+ChZB2XAKDgjWNrds8y24=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_script_detector_0.3.bincfg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1CI8I82O49PUmZ1OELsW7AuBGfiBLl5m5k6QfFUI8hs=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_script_detector_0.3.conv_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fr6fwMDJQpzDcU1dLoZixTvSjPADE3XiN9sojcjajV8=
+			</data>
+		</dict>
+		<key>KoreanOCRResources.bundle/tflite_script_detector_0.3.lstm_model</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IoGgFob5/5Fk8qEu10OBjiuOCvaufHMkCSTXA0LT8ss=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8J3cD+EOvqN50oumY7kDn0lgJI5z23HTMe12GQOqqQw=
+			OY2s6bp8bt3ooyuhyeBf5Qhiz06PCy3J3Q7BFcyQNYw=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -421,42 +726,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AVHKVqoUw2It56JKb9GjjLW+TmmILEw11axThY5Ynic=
+			tDl+e9Qb3Y0TbWROgvFIpOv92a7kueyE1EfMOt485kc=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KpDGwUhWAntgtqo9q8uI/0zpN9fhk/ZWduFqaTchBpA=
+			qF44U+W76hG7AJB4QZDH92E2tcs3LvgyTC2IK7wquIc=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzIWCiYcU8jD8uofKR0BjoWZkL8lxUSGxWtEMTD/y+0=
-			</data>
-		</dict>
-		<key>Modules/MembiOS.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AVHKVqoUw2It56JKb9GjjLW+TmmILEw11axThY5Ynic=
-			</data>
-		</dict>
-		<key>Modules/MembiOS.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KpDGwUhWAntgtqo9q8uI/0zpN9fhk/ZWduFqaTchBpA=
-			</data>
-		</dict>
-		<key>Modules/MembiOS.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CzIWCiYcU8jD8uofKR0BjoWZkL8lxUSGxWtEMTD/y+0=
+			l+jzePUXDlf5vyOovQeQju4ki3tNk1UEQp47nEIKpHo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -477,21 +761,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QCeTbDYlCG4uxPEJuesZAoA8K9zwBVomHcMvCd10nuE=
+			u0jEBiZ6Oc7kAldkCa42rD3t8dTTt/I+j0NwN4zQ/cM=
 			</data>
 		</dict>
 		<key>ProcessingView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p4tGG+DwBR1/loE/rx/DbWc146DW4YasON0py5dOUvE=
+			gEsjNCZJMcJoJNyw4Q2IwNSU+nhpu79W/61DujE4q74=
 			</data>
 		</dict>
 		<key>ResultDataView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmt1SCT6VKMVCNs3YGB4phvXjRe/u5bnNz5y60WtZ0A=
+			kFADXR7gy7CuJqTn38ESUbj9nNwR9lZMoK8IZHBmexI=
 			</data>
 		</dict>
 		<key>SourceSansPro-Bold.ttf</key>
@@ -519,28 +803,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l192PERgHZJLi9acYiY/x1aOE1dfLrxbi2Y4GAGGGMQ=
+			WvaAx4Al1FPPetnQGCFQUnQc4F/6Z26Gu0aXDI+zry8=
 			</data>
 		</dict>
 		<key>StepView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HlAjRe6jdKcGldMkGU3UMbHqjss9xr/QzbLZmQ0H7kU=
+			qbjwwCkmPdq9V/dviwwKvIHIOAON0H2cs8uSSLFxUrY=
 			</data>
 		</dict>
 		<key>SuccessView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DM0EiHAjyMmnACQgMFldygvTy4oCpNJo4JjOnjDYWJA=
+			9MUtuWqZSW4KBrR2X/uKU0IMFK0N7SsLIVEB/sPuEpY=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RqA+LITjvfqHI2r0bTZdOflxof1Fsh2wrzaiRYLPlgo=
+			nBFm2mwYgTPG48I5rh2RzX+gU7svOOJWXmMEhGxjosY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -549,7 +833,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kTYxapJ866OR5vrJxevoGh0IqlVu3Wi0R26gUyykBqE=
+			IesMFZBOaClsJ/4LhDCo0q56p0aYDw3ENkApmnDLs2k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -572,7 +856,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2W9O2zhdW259rvy20jOwS4jVXFIjzcTYEM++qaKBxq8=
+			+5fEx+nELvCAVYteA02iaJAU0FPtS8UxqyHEcT6WgmA=
 			</data>
 		</dict>
 		<key>intro_mrz_document.json</key>
@@ -608,20 +892,6 @@
 			<key>hash2</key>
 			<data>
 			90GItZn1ZikXAI+qN27lkQ7H10ai4agrvuqla11O1rA=
-			</data>
-		</dict>
-		<key>masterListES.pem</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ELE0t9T9obt0nOxLd4L2p5+xylD0lrnqpeLozFrr5kI=
-			</data>
-		</dict>
-		<key>masterListICAO.pem</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PeQdyV+lr7C+t8/qVuWq4EzfbGIGExPTdgq3XftawZU=
 			</data>
 		</dict>
 		<key>read_nfc_error.json</key>

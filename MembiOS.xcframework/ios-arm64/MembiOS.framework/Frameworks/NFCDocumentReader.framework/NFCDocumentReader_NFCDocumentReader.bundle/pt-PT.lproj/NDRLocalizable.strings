@@ -1,0 +1,7 @@
+"text_intro_chip_state_waiting_tag_text" = "Aproxime o seu dispositivo do documento";
+"text_chip_security_enable_nfc_title" = "Habilite nfc para poder continuar";
+"text_error_retrieving_document_data" = "Aconteceu um erro ao tentar recuperar os dados do documento";
+"text_nfc_read_successfull_title" = "A nfc leu com êxito";
+"text_intro_chip_state_fail" = "Puxa! O NFC não pôde ser lido";
+"text_diagnostic_NFC_timeout_description" = "Excedeu o tempo de leitura NFC. Tente novamente";
+"text_chip_duplicated_session_error" = "O processo de captura foi duplicado, favor tentar novamente após o desaparecimento desta mensagem";
