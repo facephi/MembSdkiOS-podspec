@@ -6,71 +6,51 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		WDcs3uwYdpfh62+jUDSR9kkggSY=
+		Zq3+fU6N3rnbbLcHX+KqPBYdUao=
 		</data>
 		<key>DiagnosisView.nib</key>
 		<data>
-		KC0tk3r9Dvqbon5I50Uen9rnlTg=
+		kqO+WM6w0jUfIIass/tdT+QuqVo=
 		</data>
 		<key>DocumentSelectorInfoView.nib</key>
 		<data>
-		erZ1HjqmZTw9s9QUnbTT8bdif3Y=
+		JPQjI/F9GCTENitvRoCogM87jFg=
 		</data>
 		<key>DocumentSelectorMainView.nib</key>
 		<data>
-		JpDzhelzyiXDuKfJMgUteHvmbDI=
+		os12ed80TUv1P9TfxqVa16TVXDA=
 		</data>
 		<key>DocumentSelectorSelectView.nib</key>
 		<data>
-		OLKsUYcToVVe09f5EkuqPv1rVwI=
+		ALkd2tQGdo7dlk5p1xOmHFD54fg=
 		</data>
 		<key>FailureView.nib</key>
 		<data>
-		nJYAmcJxXG8YdUOF4Q4hT5b33Z4=
+		SViPKDQxUYy00RHPqaRNsNYOq08=
 		</data>
 		<key>HeaderCloseButtonView.nib</key>
 		<data>
-		PZfLxiIG4R46z7M6+QZFqQar0+I=
+		BWfqXRCM+D1PYc0zOyGVyQd9LoE=
 		</data>
 		<key>HeaderView.nib</key>
 		<data>
-		6LwGtbvDfTYU/NaAGQVIzweVRMw=
+		I5y4f7oF1/5YSBSRdpBL2zU3Xc4=
 		</data>
 		<key>Headers/MembiOS-Swift.h</key>
 		<data>
-		n1qY9kmwHIeEuHqorqXPoj4WnDw=
+		J6zGQDjvIIQ7lqytVttDuzLmteo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dKxLvrbSRcCM1kd7rixDN0VxBoY=
+		SfEvLmIU+CrHAOneNTQoWTQe51k=
 		</data>
 		<key>InfoAcceptedDocsView.nib</key>
 		<data>
-		ftJeaqa52DcnpzAyBC7KieCIbMM=
+		TDryo3F3VwUa9yqryAhnjf06FU0=
 		</data>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<data>
-		QGf59GXMta84TnyqY2wDvY0lja4=
-		</data>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		WCKqO3bKsdTPrqnmC0Qu5en+I30=
-		</data>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		SlDTXDOR/HrckOnatNPvYuVw5Pg=
-		</data>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		CQysp4ai5zI+GqqewdpYagFxzo4=
-		</data>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		v2bPwj+m+Delu32iL/HMjPsEQw4=
 		</data>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -134,27 +114,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		1ccOX/rbMz+3UVcIcFxxgip9/s4=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		bL+R1fTiiFhc6Jw2HnBv2d+wrL8=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		rUaorh506Cr2cGLgMTXrTrTKnLE=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		wAcvRDpr4WwSmhX9K6fHkl08qbg=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		+REr8v559wlasUjKix2eelwTy4I=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -190,15 +150,27 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A+xmdDZ9zVmEuFJetx5NB0rOI+0=
+		Edamn3VXrs72Z9HHxEcLXJx3abg=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4UhmKxASQZC1tHdTKGPgiRRs+ik=
+		eIxFa1JDdSzMLB3P+wVOTOB7C8w=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		n6wk6Xxf7nsJ3pG29cB1M6w8e50=
+		9y0NZZlYszxw9PkUk85Mj8vLo4w=
+		</data>
+		<key>Modules/MembiOS.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		Edamn3VXrs72Z9HHxEcLXJx3abg=
+		</data>
+		<key>Modules/MembiOS.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		eIxFa1JDdSzMLB3P+wVOTOB7C8w=
+		</data>
+		<key>Modules/MembiOS.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		9y0NZZlYszxw9PkUk85Mj8vLo4w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,15 +182,15 @@
 		</data>
 		<key>PreviewSelphiView.nib</key>
 		<data>
-		f/HF2X+BjKncvKVu4PDFYRKTBYI=
+		HBoNihr4jlMSgh7ICjGvmcO70UY=
 		</data>
 		<key>ProcessingView.nib</key>
 		<data>
-		ABisXCPLgzFDt2PvDs5dVFTix+g=
+		J2506kffjFVqh93DY4ItmWtetGQ=
 		</data>
 		<key>ResultDataView.nib</key>
 		<data>
-		D9OYkireV6GQyVa1bYMtZhKSdms=
+		2Nag7pynlGeJkczqwCFjzu8tp4U=
 		</data>
 		<key>SourceSansPro-Bold.ttf</key>
 		<data>
@@ -234,15 +206,15 @@
 		</data>
 		<key>SquareCardView.nib</key>
 		<data>
-		y5B+l2Q1P7QIz2iDQ7Za86zug8E=
+		Vd7bhGRpMVrtrVYwOkyztpHU5dA=
 		</data>
 		<key>StepView.nib</key>
 		<data>
-		ds5lsh9nzpNWo7kWSzz0NfwBEdE=
+		kQesf+ocYDkF5tR4Jawsiv45Nvc=
 		</data>
 		<key>SuccessView.nib</key>
 		<data>
-		JPZGWkITaLZb8nT1j9BXlisHkfs=
+		5mXVtXjtIGlisOpdGMD2hkoKeVk=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -272,7 +244,7 @@
 		</data>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
-		7FM/R/R1O22YHBpcush6r0uQgQc=
+		FVKRyMN7lIu5K6VUGlnWNIjirYo=
 		</data>
 		<key>intro_mrz_document.json</key>
 		<data>
@@ -317,112 +289,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AjKmZVL5j66SIksJ7MU2l8UjWZUglvVWaNPUoxWdDic=
+			WjQtFa/Y+Y0Onf8yUhp8vsUvevebUfqiE+hgLEtppDU=
 			</data>
 		</dict>
 		<key>DiagnosisView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qCo+42Npt16FLltiQZS1ka+7T6updlMLpVjJ0MJC5Vs=
+			qYRS0s3S3Ld9ajBtjfaMi1PD98KPpOsj5poC84ZX38I=
 			</data>
 		</dict>
 		<key>DocumentSelectorInfoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			//AzOys8FJ6cmqeUMHHYJhO62u8Ghmhkph8dzlmOvJ8=
+			uN8OdmxmNouRn3MAC2BzThY4lSYYPIPn1axYTup4bQE=
 			</data>
 		</dict>
 		<key>DocumentSelectorMainView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zi8FfPcmNFuMXlEx9r9i0a627NoX0SrhL44qVKVl7IM=
+			ynxDlHQKqoHFnPenIdBo66kg99GSkYyGvX0l0DFnCC0=
 			</data>
 		</dict>
 		<key>DocumentSelectorSelectView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HA1RCQz4iKHEIKLw7g6ettqx6zCTMKAmS62guTpO0oM=
+			eod4rgz2Ii8k7iodQBoM+DAdupPwS44KZlGw1uqZi5U=
 			</data>
 		</dict>
 		<key>FailureView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEVjCVfe6pVnaFKch3gd0iNV8GTEX1mPHKvXsj7DUS8=
+			c5FVLusb/vVzm4NFFIkc+O0nMplSlH9Rpwr8UGJ+sxA=
 			</data>
 		</dict>
 		<key>HeaderCloseButtonView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			My5L/dVKvFKlRv93IBfPnMr9OOFmxDRGWkJnjy2ABYE=
+			w3tvsk6+zChafccyPHtlSZiwXLJabl7TAXMQDgukftI=
 			</data>
 		</dict>
 		<key>HeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1VAeX1M67pt/+4I0tYIUmNNiHb1QjXTPl73w1nLEbE=
+			uCNcQf7wMlh+CO55CTMAEbESVqo2de7rMP+vOe3wKX4=
 			</data>
 		</dict>
 		<key>Headers/MembiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWegr8XBqqNiCjRZsWkZJc8UlKh7S5KJVfTfW263wkQ=
+			B6jpSpePiGH8jmRkr1IJv5LszgKQ34Dwwlq8n4Eoa+s=
 			</data>
 		</dict>
 		<key>InfoAcceptedDocsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mP5f7nH+N3kgMyJ0nRBTav4OLxDAqRWPZBfWrfKdoAc=
+			1gp7yYrE5cNwIC/xWFagK/jTGlc6JPXbmLuC6ThUQTg=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			07ZanNYq8y9CCQuJ4dP2BNuCUUzm0OEy5TSaH60E8WU=
-			</data>
-		</dict>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZPemGHgAb2Jkst/0989kXCu0HACyMFu9oDKunE/AG+g=
-			</data>
-		</dict>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eszxzSzJU1mOPCCc1Enrwt0k+rpJggLuBQ8ye5XWF20=
-			</data>
-		</dict>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3uoyiUDPh1rlUHKpJWd9pz2O/KBMbv2E0u8PG/uQL1A=
-			</data>
-		</dict>
-		<key>KoreanOCRResources.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			rCh8JaKSW1F2+c+7fWcokenk1KzXa/1PVsXhR3BcASo=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -534,42 +471,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HIE1Gb5UCQlUlKHf8yJoYuQa/8/A5DvApI0JIhWxmZc=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			a3HuBhiCTRPYDI+yipHxLLvB1eHVzzSYpsCnCL9c3hY=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UUdVSjHOb919ik7AKT27PzLeDT8azhoGEynNslsFYY0=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			invF7KpCHCac7fmWM4LSKwZVfsuUXzSgywbk4dGvZ3c=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			Hxt/VDv7C+yxc9HzP8QNjgAb+/Xv0ocgVY7w99kOY9A=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -632,21 +534,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2lEmonxAJZPs0VrO6/GRFJnzukwu7tHtRnoTDT31IM8=
+			55NHQvq9JJ0YjXyuPtgMVeWQez2jqnWhAczdd9PBCT8=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MurzGnd9gZt5I5cbsg8MgWEHm8nAwaJFkOmPJMiIE0g=
+			vswexPDJBzOHUrC38NHLb27NamjTkPmhhc4Mx7XcGrU=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Owh9ssBJJOG8BpoFkN+5yrAFBp1Dya01O6JZhRa9t0k=
+			NaU+VlKfHZWe9GkSJpm9hMxRh+JdwSsowhiI0A43Tqk=
+			</data>
+		</dict>
+		<key>Modules/MembiOS.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			55NHQvq9JJ0YjXyuPtgMVeWQez2jqnWhAczdd9PBCT8=
+			</data>
+		</dict>
+		<key>Modules/MembiOS.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vswexPDJBzOHUrC38NHLb27NamjTkPmhhc4Mx7XcGrU=
+			</data>
+		</dict>
+		<key>Modules/MembiOS.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NaU+VlKfHZWe9GkSJpm9hMxRh+JdwSsowhiI0A43Tqk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -667,21 +590,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u0jEBiZ6Oc7kAldkCa42rD3t8dTTt/I+j0NwN4zQ/cM=
+			QCeTbDYlCG4uxPEJuesZAoA8K9zwBVomHcMvCd10nuE=
 			</data>
 		</dict>
 		<key>ProcessingView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gEsjNCZJMcJoJNyw4Q2IwNSU+nhpu79W/61DujE4q74=
+			p4tGG+DwBR1/loE/rx/DbWc146DW4YasON0py5dOUvE=
 			</data>
 		</dict>
 		<key>ResultDataView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kFADXR7gy7CuJqTn38ESUbj9nNwR9lZMoK8IZHBmexI=
+			cmt1SCT6VKMVCNs3YGB4phvXjRe/u5bnNz5y60WtZ0A=
 			</data>
 		</dict>
 		<key>SourceSansPro-Bold.ttf</key>
@@ -709,21 +632,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WvaAx4Al1FPPetnQGCFQUnQc4F/6Z26Gu0aXDI+zry8=
+			l192PERgHZJLi9acYiY/x1aOE1dfLrxbi2Y4GAGGGMQ=
 			</data>
 		</dict>
 		<key>StepView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbjwwCkmPdq9V/dviwwKvIHIOAON0H2cs8uSSLFxUrY=
+			HlAjRe6jdKcGldMkGU3UMbHqjss9xr/QzbLZmQ0H7kU=
 			</data>
 		</dict>
 		<key>SuccessView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9MUtuWqZSW4KBrR2X/uKU0IMFK0N7SsLIVEB/sPuEpY=
+			DM0EiHAjyMmnACQgMFldygvTy4oCpNJo4JjOnjDYWJA=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -762,7 +685,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5fEx+nELvCAVYteA02iaJAU0FPtS8UxqyHEcT6WgmA=
+			9T9IOUlTt9bv3bHWCuKQZa2eG6T6LXqcS2/zX46pjjc=
 			</data>
 		</dict>
 		<key>intro_mrz_document.json</key>

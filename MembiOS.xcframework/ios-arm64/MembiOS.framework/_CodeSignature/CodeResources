@@ -6,51 +6,51 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		WDcs3uwYdpfh62+jUDSR9kkggSY=
+		Zq3+fU6N3rnbbLcHX+KqPBYdUao=
 		</data>
 		<key>DiagnosisView.nib</key>
 		<data>
-		KC0tk3r9Dvqbon5I50Uen9rnlTg=
+		kqO+WM6w0jUfIIass/tdT+QuqVo=
 		</data>
 		<key>DocumentSelectorInfoView.nib</key>
 		<data>
-		erZ1HjqmZTw9s9QUnbTT8bdif3Y=
+		JPQjI/F9GCTENitvRoCogM87jFg=
 		</data>
 		<key>DocumentSelectorMainView.nib</key>
 		<data>
-		JpDzhelzyiXDuKfJMgUteHvmbDI=
+		os12ed80TUv1P9TfxqVa16TVXDA=
 		</data>
 		<key>DocumentSelectorSelectView.nib</key>
 		<data>
-		OLKsUYcToVVe09f5EkuqPv1rVwI=
+		ALkd2tQGdo7dlk5p1xOmHFD54fg=
 		</data>
 		<key>FailureView.nib</key>
 		<data>
-		nJYAmcJxXG8YdUOF4Q4hT5b33Z4=
+		SViPKDQxUYy00RHPqaRNsNYOq08=
 		</data>
 		<key>HeaderCloseButtonView.nib</key>
 		<data>
-		PZfLxiIG4R46z7M6+QZFqQar0+I=
+		BWfqXRCM+D1PYc0zOyGVyQd9LoE=
 		</data>
 		<key>HeaderView.nib</key>
 		<data>
-		6LwGtbvDfTYU/NaAGQVIzweVRMw=
+		I5y4f7oF1/5YSBSRdpBL2zU3Xc4=
 		</data>
 		<key>Headers/MembiOS-Swift.h</key>
 		<data>
-		n1qY9kmwHIeEuHqorqXPoj4WnDw=
+		J6zGQDjvIIQ7lqytVttDuzLmteo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Lcu/7Mqqyh6ITo6B1sopN9fWwPM=
+		QbPXfSkBt3o4OaLe/o6p2ZEk6PM=
 		</data>
 		<key>InfoAcceptedDocsView.nib</key>
 		<data>
-		ftJeaqa52DcnpzAyBC7KieCIbMM=
+		TDryo3F3VwUa9yqryAhnjf06FU0=
 		</data>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<data>
-		LMrGt1DkA2gvdC6vEFIZ7rgSBJc=
+		JiRT+xjC7Sd7BzbKgnOkumNSoyE=
 		</data>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		Q+5pF0gDZ712NVr+Y55JQO/BX5U=
+		04qE+uL2JogTBTqGpsIwQ9imyR0=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -150,15 +150,27 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/4hhuL8lJZZya7UdgrnFjyU2yTs=
+		gl0cDcW9vzOccz/Xf0eF94/rqj0=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jRrcXKggdYKq8jTPAdOHL/432Sc=
+		gvv54RQhRqtbem+0+uPN99N9NEM=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		K0BV0ktSUsueD2D4T3hVejBj/1k=
+		3e+zNnxtKXA2vlmQVW+DlyeQqFA=
+		</data>
+		<key>Modules/MembiOS.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		gl0cDcW9vzOccz/Xf0eF94/rqj0=
+		</data>
+		<key>Modules/MembiOS.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		gvv54RQhRqtbem+0+uPN99N9NEM=
+		</data>
+		<key>Modules/MembiOS.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		3e+zNnxtKXA2vlmQVW+DlyeQqFA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,15 +182,15 @@
 		</data>
 		<key>PreviewSelphiView.nib</key>
 		<data>
-		f/HF2X+BjKncvKVu4PDFYRKTBYI=
+		HBoNihr4jlMSgh7ICjGvmcO70UY=
 		</data>
 		<key>ProcessingView.nib</key>
 		<data>
-		ABisXCPLgzFDt2PvDs5dVFTix+g=
+		J2506kffjFVqh93DY4ItmWtetGQ=
 		</data>
 		<key>ResultDataView.nib</key>
 		<data>
-		D9OYkireV6GQyVa1bYMtZhKSdms=
+		2Nag7pynlGeJkczqwCFjzu8tp4U=
 		</data>
 		<key>SourceSansPro-Bold.ttf</key>
 		<data>
@@ -194,15 +206,15 @@
 		</data>
 		<key>SquareCardView.nib</key>
 		<data>
-		y5B+l2Q1P7QIz2iDQ7Za86zug8E=
+		Vd7bhGRpMVrtrVYwOkyztpHU5dA=
 		</data>
 		<key>StepView.nib</key>
 		<data>
-		ds5lsh9nzpNWo7kWSzz0NfwBEdE=
+		kQesf+ocYDkF5tR4Jawsiv45Nvc=
 		</data>
 		<key>SuccessView.nib</key>
 		<data>
-		JPZGWkITaLZb8nT1j9BXlisHkfs=
+		5mXVtXjtIGlisOpdGMD2hkoKeVk=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -232,7 +244,7 @@
 		</data>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
-		7FM/R/R1O22YHBpcush6r0uQgQc=
+		FVKRyMN7lIu5K6VUGlnWNIjirYo=
 		</data>
 		<key>intro_mrz_document.json</key>
 		<data>
@@ -277,77 +289,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AjKmZVL5j66SIksJ7MU2l8UjWZUglvVWaNPUoxWdDic=
+			WjQtFa/Y+Y0Onf8yUhp8vsUvevebUfqiE+hgLEtppDU=
 			</data>
 		</dict>
 		<key>DiagnosisView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qCo+42Npt16FLltiQZS1ka+7T6updlMLpVjJ0MJC5Vs=
+			qYRS0s3S3Ld9ajBtjfaMi1PD98KPpOsj5poC84ZX38I=
 			</data>
 		</dict>
 		<key>DocumentSelectorInfoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			//AzOys8FJ6cmqeUMHHYJhO62u8Ghmhkph8dzlmOvJ8=
+			uN8OdmxmNouRn3MAC2BzThY4lSYYPIPn1axYTup4bQE=
 			</data>
 		</dict>
 		<key>DocumentSelectorMainView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zi8FfPcmNFuMXlEx9r9i0a627NoX0SrhL44qVKVl7IM=
+			ynxDlHQKqoHFnPenIdBo66kg99GSkYyGvX0l0DFnCC0=
 			</data>
 		</dict>
 		<key>DocumentSelectorSelectView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HA1RCQz4iKHEIKLw7g6ettqx6zCTMKAmS62guTpO0oM=
+			eod4rgz2Ii8k7iodQBoM+DAdupPwS44KZlGw1uqZi5U=
 			</data>
 		</dict>
 		<key>FailureView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEVjCVfe6pVnaFKch3gd0iNV8GTEX1mPHKvXsj7DUS8=
+			c5FVLusb/vVzm4NFFIkc+O0nMplSlH9Rpwr8UGJ+sxA=
 			</data>
 		</dict>
 		<key>HeaderCloseButtonView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			My5L/dVKvFKlRv93IBfPnMr9OOFmxDRGWkJnjy2ABYE=
+			w3tvsk6+zChafccyPHtlSZiwXLJabl7TAXMQDgukftI=
 			</data>
 		</dict>
 		<key>HeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1VAeX1M67pt/+4I0tYIUmNNiHb1QjXTPl73w1nLEbE=
+			uCNcQf7wMlh+CO55CTMAEbESVqo2de7rMP+vOe3wKX4=
 			</data>
 		</dict>
 		<key>Headers/MembiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWegr8XBqqNiCjRZsWkZJc8UlKh7S5KJVfTfW263wkQ=
+			B6jpSpePiGH8jmRkr1IJv5LszgKQ34Dwwlq8n4Eoa+s=
 			</data>
 		</dict>
 		<key>InfoAcceptedDocsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mP5f7nH+N3kgMyJ0nRBTav4OLxDAqRWPZBfWrfKdoAc=
+			1gp7yYrE5cNwIC/xWFagK/jTGlc6JPXbmLuC6ThUQTg=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8c4qNCiMNKKd+XYlbTa76qeToNe2doEvwJP2d5IjQpQ=
+			g3Y6BWOKvUWSoFd4yggNZPg3iVGQaBWry/TSsd0QP3Q=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -459,7 +471,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OY2s6bp8bt3ooyuhyeBf5Qhiz06PCy3J3Q7BFcyQNYw=
+			8J3cD+EOvqN50oumY7kDn0lgJI5z23HTMe12GQOqqQw=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -522,21 +534,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tDl+e9Qb3Y0TbWROgvFIpOv92a7kueyE1EfMOt485kc=
+			AVHKVqoUw2It56JKb9GjjLW+TmmILEw11axThY5Ynic=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qF44U+W76hG7AJB4QZDH92E2tcs3LvgyTC2IK7wquIc=
+			wCc2OkvcUTHTrVlbAxHV2g+uZqAMeUKBAL+W4uVWNoM=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LkUyOaeHN4dzMlAMtF0bsRyErvvjJJ9PDYB0/6u1Q24=
+			xs41GpeXIsEh0DBC7NzLYCg/FdnrezDYlIce4Qs/yCw=
+			</data>
+		</dict>
+		<key>Modules/MembiOS.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AVHKVqoUw2It56JKb9GjjLW+TmmILEw11axThY5Ynic=
+			</data>
+		</dict>
+		<key>Modules/MembiOS.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wCc2OkvcUTHTrVlbAxHV2g+uZqAMeUKBAL+W4uVWNoM=
+			</data>
+		</dict>
+		<key>Modules/MembiOS.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xs41GpeXIsEh0DBC7NzLYCg/FdnrezDYlIce4Qs/yCw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -557,21 +590,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u0jEBiZ6Oc7kAldkCa42rD3t8dTTt/I+j0NwN4zQ/cM=
+			QCeTbDYlCG4uxPEJuesZAoA8K9zwBVomHcMvCd10nuE=
 			</data>
 		</dict>
 		<key>ProcessingView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gEsjNCZJMcJoJNyw4Q2IwNSU+nhpu79W/61DujE4q74=
+			p4tGG+DwBR1/loE/rx/DbWc146DW4YasON0py5dOUvE=
 			</data>
 		</dict>
 		<key>ResultDataView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kFADXR7gy7CuJqTn38ESUbj9nNwR9lZMoK8IZHBmexI=
+			cmt1SCT6VKMVCNs3YGB4phvXjRe/u5bnNz5y60WtZ0A=
 			</data>
 		</dict>
 		<key>SourceSansPro-Bold.ttf</key>
@@ -599,21 +632,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WvaAx4Al1FPPetnQGCFQUnQc4F/6Z26Gu0aXDI+zry8=
+			l192PERgHZJLi9acYiY/x1aOE1dfLrxbi2Y4GAGGGMQ=
 			</data>
 		</dict>
 		<key>StepView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbjwwCkmPdq9V/dviwwKvIHIOAON0H2cs8uSSLFxUrY=
+			HlAjRe6jdKcGldMkGU3UMbHqjss9xr/QzbLZmQ0H7kU=
 			</data>
 		</dict>
 		<key>SuccessView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9MUtuWqZSW4KBrR2X/uKU0IMFK0N7SsLIVEB/sPuEpY=
+			DM0EiHAjyMmnACQgMFldygvTy4oCpNJo4JjOnjDYWJA=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -652,7 +685,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5fEx+nELvCAVYteA02iaJAU0FPtS8UxqyHEcT6WgmA=
+			9T9IOUlTt9bv3bHWCuKQZa2eG6T6LXqcS2/zX46pjjc=
 			</data>
 		</dict>
 		<key>intro_mrz_document.json</key>
