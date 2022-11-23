@@ -40,7 +40,7 @@ With all that information, the Library can assure a valid result for the biometr
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
   spec.ios.vendored_frameworks = 'MembiOS.xcframework'
 
-  spec.dependency 'lottie-ios'
+  spec.dependency 'lottie-ios', '~> 3.4.3'
   spec.dependency 'FPhiNFCiOS', '2.3.4'
   spec.dependency 'FPhiApiManager', '1.0.3'
   spec.dependency 'FPhiSelphIDWidgetiOS'
