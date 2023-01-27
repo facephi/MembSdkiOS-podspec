@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MembiOS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import FPhiSelphIDWidgetiOS
 import Foundation
@@ -9,8 +10,12 @@ import Network
 import Swift
 import UIKit
 import _Concurrency
+import _StringProcessing
 import os.log
 import os
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public class func fromNibMemb<T>() -> T where T : UIKit.UIView
+}
 extension Foundation.Bundle {
   public static var membSdkBundle: Foundation.Bundle {
     get
@@ -43,6 +48,7 @@ extension MembiOS.R {
     case dniBack
     case dniFront
     case dniFace
+    case validSelfieImage
     case pagerArrow
     case iconFaceMask
     case iconHair
@@ -64,8 +70,8 @@ public protocol ToolBarDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PickerViewContainer : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var isHidden: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @objc deinit
   @_Concurrency.MainActor(unsafe) public func configure(toolbarDelegate: MembiOS.ToolBarDelegate, elementsArray: [Swift.String], overlayedView: UIKit.UIView? = nil)
@@ -73,7 +79,7 @@ public protocol ToolBarDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public func show()
   @_Concurrency.MainActor(unsafe) public func hide()
   @_Concurrency.MainActor(unsafe) public func getSelectedElement() -> Swift.String
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension MembiOS.PickerViewContainer : UIKit.UIPickerViewDataSource {
@@ -140,7 +146,7 @@ public enum EnvironmentType : Swift.String {
 public typealias MembSDKCompletion = (MembiOS.MembSdkResponse) -> Swift.Void
 public class MembSdkManager {
   final public let useCaseProvider: MembiOS.UseCaseProvider!
-  public init(navigationController: UIKit.UINavigationController, environmentType: MembiOS.EnvironmentType, completion: MembiOS.MembSDKCompletion? = nil)
+  public init(navigationController: UIKit.UINavigationController, environmentType: MembiOS.EnvironmentType = .PROD, completion: MembiOS.MembSDKCompletion? = nil)
   public func launchSDK(membSdkRequest: MembiOS.MembSdkRequest)
   public func configure(token: Swift.String, documentType: MembiOS.DocumentType)
   @objc deinit
@@ -160,7 +166,7 @@ public enum R {
 }
 @_hasMissingDesignatedInitializers final public class StyleHelper {
   public struct TextAttributes {
-    public init(font: UIKit.UIFont? = nil, color: UIKit.UIColor? = nil, backgroundColor: UIKit.UIColor? = nil, cornerRadius: CoreGraphics.CGFloat? = nil, borderColor: UIKit.UIColor? = nil, borderWidth: CoreGraphics.CGFloat? = nil, tintColor: UIKit.UIColor? = nil, gradientColors: [UIKit.UIColor]? = nil, gradientHorizontal: Swift.Bool = true, gradientLocations: [Foundation.NSNumber]? = nil, icon: UIKit.UIImage? = nil, height: CoreGraphics.CGFloat? = nil)
+    public init(font: UIKit.UIFont? = nil, color: UIKit.UIColor? = nil, backgroundColor: UIKit.UIColor? = nil, cornerRadius: CoreFoundation.CGFloat? = nil, borderColor: UIKit.UIColor? = nil, borderWidth: CoreFoundation.CGFloat? = nil, tintColor: UIKit.UIColor? = nil, gradientColors: [UIKit.UIColor]? = nil, gradientHorizontal: Swift.Bool = true, gradientLocations: [Foundation.NSNumber]? = nil, icon: UIKit.UIImage? = nil, height: CoreFoundation.CGFloat? = nil)
   }
   @objc deinit
 }
@@ -196,7 +202,6 @@ public enum WidgetServiceError : Swift.Error {
   case cancelled
   case failed
   case timeout
-  case retryable
   case needsSelphID
   case cameraPermissionDenied
   case documentOfAMinor
@@ -222,7 +227,7 @@ extension MembiOS.ThemeAena : MembiOS.ThemeProtocol {
   public var fonts: [MembiOS.R.Font : Swift.String] {
     get
   }
-  public var dimensions: [MembiOS.R.Dimension : CoreGraphics.CGFloat] {
+  public var dimensions: [MembiOS.R.Dimension : CoreFoundation.CGFloat] {
     get
   }
   public var styles: [MembiOS.R.Style : MembiOS.StyleHelper.TextAttributes] {
@@ -372,7 +377,7 @@ extension MembiOS.R {
 public protocol ThemeProtocol {
   var name: Swift.String { get }
   var fonts: [MembiOS.R.Font : Swift.String] { get }
-  var dimensions: [MembiOS.R.Dimension : CoreGraphics.CGFloat] { get }
+  var dimensions: [MembiOS.R.Dimension : CoreFoundation.CGFloat] { get }
   var styles: [MembiOS.R.Style : MembiOS.StyleHelper.TextAttributes] { get }
   var images: [MembiOS.R.Image : UIKit.UIImage?] { get }
   var colors: [MembiOS.R.Color : UIKit.UIColor?] { get }
@@ -389,7 +394,7 @@ extension MembiOS.ScanMrzUseCase {
   final public func execute(documentType: MembiOS.DocumentType, viewController: UIKit.UIViewController, delegate: MembiOS.ScanMrzDelegate)
 }
 extension MembiOS.R {
-  public enum Dimension : CoreGraphics.CGFloat {
+  public enum Dimension : CoreFoundation.CGFloat {
     case fontVerySmall
     case fontSmall
     case fontSmallPlus
@@ -404,9 +409,9 @@ extension MembiOS.R {
     case defaulControlSize
     case cornerRadius
     case cornerRadiusBig
-    public init?(rawValue: CoreGraphics.CGFloat)
-    public typealias RawValue = CoreGraphics.CGFloat
-    public var rawValue: CoreGraphics.CGFloat {
+    public init?(rawValue: CoreFoundation.CGFloat)
+    public typealias RawValue = CoreFoundation.CGFloat
+    public var rawValue: CoreFoundation.CGFloat {
       get
     }
   }
