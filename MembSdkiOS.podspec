@@ -37,7 +37,7 @@ With all that information, the Library can assure a valid result for the biometr
 
   spec.ios.frameworks = 'UIKit'
   
-  spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
+  spec.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   spec.ios.vendored_frameworks = 'MembiOS.xcframework'
 
   spec.dependency 'lottie-ios', '~> 3.4.3'
