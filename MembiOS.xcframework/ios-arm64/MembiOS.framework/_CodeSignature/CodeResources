@@ -150,11 +150,11 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kU/dyjW2QOMwGBuA0MIVPZvL2H0=
+		CTKl8fo5aesWJWKR5jbH5LaetMo=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		C1NHXuD0GVHyh/dYv+0Nf+IF9B8=
+		huUb7mfoPIeEv9lf+qWK0GEDchg=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		C1NHXuD0GVHyh/dYv+0Nf+IF9B8=
+		huUb7mfoPIeEv9lf+qWK0GEDchg=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FteW0gdc0wlR+T8pV0+NBd8UB3M=
+		deFDpYhM012gOQGH6eTcFZE38PQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -530,14 +530,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FmdJgiYHc5zlnLSFv0rWcpPGVspSt+vD6nTIJxAaYU4=
+			kubR8GP5s5Sy8B/GnUXHFH38SntJLehCdPIq1WiAiHU=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PWyIJFEjWxcYuVGOWQ2bV9MJQFr/3AUek8f9kFp+708=
+			lIFYwjmskADHy+Q+Kk3/8/e3Nt7zlN9k0Tp1D5/Y1TY=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -551,14 +551,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PWyIJFEjWxcYuVGOWQ2bV9MJQFr/3AUek8f9kFp+708=
+			lIFYwjmskADHy+Q+Kk3/8/e3Nt7zlN9k0Tp1D5/Y1TY=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			akeSk6Rsu4EPzi7uFMc1ZuhOOJ1EcwolcC/olAn3WwE=
+			CSwqcOrD/a3HBwAT2+HI1g3PyuERjRl3H2OKlUOYRac=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
