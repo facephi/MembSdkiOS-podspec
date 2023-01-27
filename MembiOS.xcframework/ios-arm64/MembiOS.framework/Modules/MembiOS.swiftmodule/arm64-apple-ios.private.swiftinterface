@@ -17,7 +17,9 @@ extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public class func fromNibMemb<T>() -> T where T : UIKit.UIView
 }
 extension Foundation.Bundle {
-  public static var membSdkBundle: Foundation.Bundle
+  public static var membSdkBundle: Foundation.Bundle {
+    get
+  }
 }
 extension MembiOS.R {
   public enum Image : Swift.String, Swift.CaseIterable {

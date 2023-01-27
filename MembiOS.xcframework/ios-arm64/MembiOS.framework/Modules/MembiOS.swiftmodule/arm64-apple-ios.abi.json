@@ -12276,14 +12276,10 @@
             "moduleName": "MembiOS",
             "static": true,
             "declAttributes": [
-              "HasInitialValue",
               "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -12302,64 +12298,11 @@
                 "mangledName": "$sSo8NSBundleC7MembiOSE13membSdkBundleABvgZ",
                 "moduleName": "MembiOS",
                 "static": true,
-                "implicit": true,
                 "declAttributes": [
                   "Final"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So8NSBundleC7MembiOSE13membSdkBundleABvsZ",
-                "mangledName": "$sSo8NSBundleC7MembiOSE13membSdkBundleABvsZ",
-                "moduleName": "MembiOS",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So8NSBundleC7MembiOSE13membSdkBundleABvMZ",
-                "mangledName": "$sSo8NSBundleC7MembiOSE13membSdkBundleABvMZ",
-                "moduleName": "MembiOS",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "_modify"
               }
             ]
           }
@@ -12449,34 +12392,6 @@
       "offset": 1393,
       "length": 3,
       "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/jpoveda\/Desktop\/memb-ios\/MembiOS\/Helpers\/Extensions\/Bundle.swift",
-      "kind": "StringLiteral",
-      "offset": 422,
-      "length": 9,
-      "value": "\"MembiOS\""
-    },
-    {
-      "filePath": "\/Users\/jpoveda\/Desktop\/memb-ios\/MembiOS\/Helpers\/Extensions\/Bundle.swift",
-      "kind": "StringLiteral",
-      "offset": 448,
-      "length": 8,
-      "value": "\"bundle\""
-    },
-    {
-      "filePath": "\/Users\/jpoveda\/Desktop\/memb-ios\/MembiOS\/Helpers\/Extensions\/Bundle.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 27,
-      "value": "\"MembiOS.bundle not found!\""
-    },
-    {
-      "filePath": "\/Users\/jpoveda\/Desktop\/memb-ios\/MembiOS\/Helpers\/Extensions\/Bundle.swift",
-      "kind": "StringLiteral",
-      "offset": 616,
-      "length": 31,
-      "value": "\"Cannot access MembiOS.bundle!\""
     },
     {
       "filePath": "\/Users\/jpoveda\/Desktop\/memb-ios\/MembiOS\/Scenes\/InfoAcceptedDocs\/AcceptedDocumentPage.swift",
