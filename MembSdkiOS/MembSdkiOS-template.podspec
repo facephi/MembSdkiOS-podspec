@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'MembSdkiOS'
-  spec.version          = '3.1'
+  spec.version          = '3.2.1'
   spec.summary          = 'MEMB Library: digital identification with biometry'
   spec.swift_version = '5.0'
 
@@ -37,10 +37,10 @@ With all that information, the Library can assure a valid result for the biometr
 
   spec.ios.frameworks = 'UIKit'
   
-  spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
+  spec.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   spec.ios.vendored_frameworks = 'MembiOS.xcframework'
 
-  spec.dependency 'lottie-ios'
+  spec.dependency 'lottie-ios', '~> 4'
   spec.dependency 'FPhiNFCiOS', '2.3.4'
   spec.dependency 'FPhiApiManager', '1.0.3'
   spec.dependency 'FPhiSelphIDWidgetiOS'
