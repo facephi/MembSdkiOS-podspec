@@ -1,25 +1,26 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MembiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
+import DeveloperToolsSupport
 import FPhiSelphIDWidgetiOS
 import Foundation
 import Lottie
 import Network
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os.log
 import os
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public class func fromNibMemb<T>() -> T where T : UIKit.UIView
 }
 extension Foundation.Bundle {
-  public static var membSdkBundle: Foundation.Bundle {
-    get
-  }
+  public static var membSdkBundle: Foundation.Bundle
 }
 extension MembiOS.R {
   public enum Image : Swift.String, Swift.CaseIterable {
@@ -48,7 +49,6 @@ extension MembiOS.R {
     case dniBack
     case dniFront
     case dniFace
-    case validSelfieImage
     case pagerArrow
     case iconFaceMask
     case iconHair
@@ -74,7 +74,7 @@ public protocol ToolBarDelegate : AnyObject {
     @objc set
   }
   @objc deinit
-  @_Concurrency.MainActor(unsafe) public func configure(toolbarDelegate: MembiOS.ToolBarDelegate, elementsArray: [Swift.String], overlayedView: UIKit.UIView? = nil)
+  @_Concurrency.MainActor(unsafe) public func configure(toolbarDelegate: any MembiOS.ToolBarDelegate, elementsArray: [Swift.String], overlayedView: UIKit.UIView? = nil)
   @_Concurrency.MainActor(unsafe) public func selectPickerOption(withText text: Swift.String)
   @_Concurrency.MainActor(unsafe) public func show()
   @_Concurrency.MainActor(unsafe) public func hide()
@@ -111,14 +111,27 @@ public struct ScanNfcObject {
   public let documentType: Swift.String
   public let documentExpiryDate: Swift.String
   public let facialImage: Swift.String
-  public init(names: Swift.String, surNames: Swift.String, documentCountry: Swift.String, documentNumber: Swift.String, dniPass: Swift.String, documentType: Swift.String, documentExpiryDate: Swift.String, facialImage: Swift.String)
+  public let validations: MembiOS.ScanNfcValidations
+  public let documentSigningCertificate: Swift.String
+  public init(names: Swift.String, surNames: Swift.String, documentCountry: Swift.String, documentNumber: Swift.String, dniPass: Swift.String, documentType: Swift.String, documentExpiryDate: Swift.String, facialImage: Swift.String, validations: MembiOS.ScanNfcValidations, documentSigningCertificate: Swift.String)
+}
+public struct ScanNfcValidations : Swift.Encodable {
+  public let accessProtocol: Swift.String
+  public let activeAuthenticationSupported: Swift.Bool
+  public let activeAuthenticationValidation: Swift.Bool?
+  public let chipAuthenticationSupported: Swift.Bool
+  public let chipAuthenticationValidation: Swift.Bool?
+  public let dataGroupsHashesValidation: Swift.Bool
+  public let documentSigningValidation: Swift.Bool
+  public let issuerSigningValidation: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers final public class TransactionCancelUseCase {
-  final public func execute() -> Combine.AnyPublisher<Swift.Bool?, Swift.Error>
+  final public func execute() -> Combine.AnyPublisher<Swift.Bool?, any Swift.Error>
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class SendNfcUseCase {
-  final public func execute(data: MembiOS.ScanNfcObject, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, Swift.Error> = CombineHelper.emptySink())
+  final public func execute(data: MembiOS.ScanNfcObject, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, any Swift.Error> = CombineHelper.emptySink())
   @objc deinit
 }
 public struct ScanMrzObject {
@@ -130,18 +143,8 @@ public struct ScanMrzObject {
   public init(mrzString: Swift.String, documentNumber: Swift.String, birthDate: Swift.String, expiryDate: Swift.String, docImage: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class SendMrzUseCase {
-  final public func execute(data: Swift.String, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, Swift.Error> = CombineHelper.emptySink())
+  final public func execute(data: Swift.String, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, any Swift.Error> = CombineHelper.emptySink())
   @objc deinit
-}
-public enum EnvironmentType : Swift.String {
-  case PROD
-  case DEV
-  case STG
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
 }
 public typealias MembSDKCompletion = (MembiOS.MembSdkResponse) -> Swift.Void
 public class MembSdkManager {
@@ -152,16 +155,16 @@ public class MembSdkManager {
   @objc deinit
 }
 public struct CombineHelper {
-  public static func emptySink<T>() -> Combine.Subscribers.Sink<T, Swift.Error>
+  public static func emptySink<T>() -> Combine.Subscribers.Sink<T, any Swift.Error>
 }
 public struct TransactionTokenResponse : Swift.Decodable {
   public let token: Swift.String
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum R {
 }
 @_hasMissingDesignatedInitializers public class ThemeManager {
-  public static func setup(theme: MembiOS.ThemeProtocol)
+  public static func setup(theme: any MembiOS.ThemeProtocol)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class StyleHelper {
@@ -171,7 +174,7 @@ public enum R {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class SendFaceMatchUseCase {
-  final public func execute(data: Swift.String, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, Swift.Error> = CombineHelper.emptySink())
+  final public func execute(data: Swift.String, sinkHandler: Combine.Subscribers.Sink<Swift.Bool, any Swift.Error> = CombineHelper.emptySink())
   @objc deinit
 }
 public protocol ScanFaceDelegate {
@@ -182,10 +185,10 @@ public protocol ScanFaceDelegate {
   @objc deinit
 }
 extension MembiOS.ScanFaceUseCase {
-  final public func execute(viewController: UIKit.UIViewController, delegate: MembiOS.ScanFaceDelegate)
+  final public func execute(viewController: UIKit.UIViewController, delegate: any MembiOS.ScanFaceDelegate)
 }
 @_hasMissingDesignatedInitializers final public class TransactionTokenUseCase {
-  final public func execute(transactionId: Swift.String, callbackUrl: Swift.String, documentType: Swift.String, email: Swift.String) -> Combine.AnyPublisher<MembiOS.TransactionTokenResponse, Swift.Error>
+  final public func execute(transactionId: Swift.String, callbackUrl: Swift.String, documentType: Swift.String, email: Swift.String) -> Combine.AnyPublisher<MembiOS.TransactionTokenResponse, any Swift.Error>
   @objc deinit
 }
 public protocol ScanNfcDelegate {
@@ -196,15 +199,17 @@ public protocol ScanNfcDelegate {
   @objc deinit
 }
 extension MembiOS.ScanNfcUseCase {
-  final public func execute(documentNumber: Swift.String, birthDate: Swift.String, expirationDate: Swift.String, delegate: MembiOS.ScanNfcDelegate)
+  final public func execute(documentNumber: Swift.String, birthDate: Swift.String, expirationDate: Swift.String, delegate: any MembiOS.ScanNfcDelegate)
 }
 public enum WidgetServiceError : Swift.Error {
   case cancelled
   case failed
   case timeout
+  case retryable
   case needsSelphID
   case cameraPermissionDenied
   case documentOfAMinor
+  case documentExpired
   public static func == (a: MembiOS.WidgetServiceError, b: MembiOS.WidgetServiceError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -240,6 +245,19 @@ extension MembiOS.ThemeAena : MembiOS.ThemeProtocol {
     get
   }
   public var animations: [MembiOS.R.Animation : Swift.String] {
+    get
+  }
+}
+public enum EnvironmentType {
+  case PROD
+  case DEV
+  case STG
+  public func getTransactionUrl() -> Swift.String
+  public func getLicensingUrl() -> Foundation.URL
+  public func getApiKeyForToken() -> Swift.String
+  public static func == (a: MembiOS.EnvironmentType, b: MembiOS.EnvironmentType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -391,7 +409,7 @@ public protocol ScanMrzDelegate {
   @objc deinit
 }
 extension MembiOS.ScanMrzUseCase {
-  final public func execute(documentType: MembiOS.DocumentType, viewController: UIKit.UIViewController, delegate: MembiOS.ScanMrzDelegate)
+  final public func execute(documentType: MembiOS.DocumentType, viewController: UIKit.UIViewController, delegate: any MembiOS.ScanMrzDelegate)
 }
 extension MembiOS.R {
   public enum Dimension : CoreFoundation.CGFloat {
@@ -420,7 +438,7 @@ public protocol HeaderViewDelegate {
   func closeTouchUpInside()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class HeaderView : MembiOS.BaseView {
-  @_Concurrency.MainActor(unsafe) public var delegate: MembiOS.HeaderViewDelegate?
+  @_Concurrency.MainActor(unsafe) public var delegate: (any MembiOS.HeaderViewDelegate)?
   @objc deinit
 }
 extension MembiOS.R.Image : Swift.Equatable {}
@@ -429,14 +447,13 @@ extension MembiOS.R.Image : Swift.RawRepresentable {}
 extension MembiOS.R.Font : Swift.Equatable {}
 extension MembiOS.R.Font : Swift.Hashable {}
 extension MembiOS.R.Font : Swift.RawRepresentable {}
-extension MembiOS.EnvironmentType : Swift.Equatable {}
-extension MembiOS.EnvironmentType : Swift.Hashable {}
-extension MembiOS.EnvironmentType : Swift.RawRepresentable {}
 extension MembiOS.WidgetServiceError : Swift.Equatable {}
 extension MembiOS.WidgetServiceError : Swift.Hashable {}
 extension MembiOS.DocumentType : Swift.Equatable {}
 extension MembiOS.DocumentType : Swift.Hashable {}
 extension MembiOS.DocumentType : Swift.RawRepresentable {}
+extension MembiOS.EnvironmentType : Swift.Equatable {}
+extension MembiOS.EnvironmentType : Swift.Hashable {}
 extension MembiOS.ResultCode : Swift.Equatable {}
 extension MembiOS.ResultCode : Swift.Hashable {}
 extension MembiOS.ResultCode : Swift.RawRepresentable {}
