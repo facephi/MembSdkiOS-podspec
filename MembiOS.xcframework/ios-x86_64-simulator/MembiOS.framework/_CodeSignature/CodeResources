@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		i1v+e3/+9w79fcI0g6yJ3fyYRrM=
+		2NRUGJ/NvCy/0sm5QwokUZxp3rU=
 		</data>
 		<key>DiagnosisView.nib</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Headers/MembiOS-Swift.h</key>
 		<data>
-		pstLN5Zbl8+F0rVM6xykXcN3JnY=
+		Jtk0pKhBYYyusGNDRcV6j8RmqLA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8tXIRVGSUaXfMENsqvs2w0xyFsc=
+		2KsxwbDt6+uSaAiXnsOYb1OJeUo=
 		</data>
 		<key>InfoAcceptedDocsView.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<data>
-		b+iqpNydQX+JrKNxNb92CWy5pho=
+		i1J3T3ayD4mYGWEUkL8UrVRkWGA=
 		</data>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		InNlge3XZsTPQCgf3TLBVo1oVTo=
+		voK5BWJzUhFbQcNa64/T17Nxms8=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -150,23 +150,23 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SRMTHm7V/ppOEJXgwk9xzRGTHko=
+		ZcHQME+P9vmmSqlEYsgq0eMbW/0=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wGzvA+gKz9wqDEb2WxzQB9622qw=
+		mPWlTSQXK8wbOmokAgvMEM+S7bo=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kNMGFcx+UM+JD5HqFToS68cIjuU=
+		mzhfrXu1vCoGtQvuVW138R/TRh0=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wGzvA+gKz9wqDEb2WxzQB9622qw=
+		mPWlTSQXK8wbOmokAgvMEM+S7bo=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LUJRUzSe6ps0Daxx0N/Lpc3v954=
+		1Ems5DpT196y8A2XhpAP+1GWnV4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			naqXfFfmkdued+tEjhJi446QOosYB+xi5Svu8oW/xMg=
+			tMFjA6YOwjh/Le604BVYsra0iOQ8msNjYXhaCw1zGDw=
 			</data>
 		</dict>
 		<key>DiagnosisView.nib</key>
@@ -341,7 +341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GtwuzrsNJSliXY3GA/LwbRsv9h5dSVk1jYK/E3wMQg=
+			Yi3OF/a4MLmelfXk6t36Ypkh1psJMoDBVttV+EjGTAU=
 			</data>
 		</dict>
 		<key>InfoAcceptedDocsView.nib</key>
@@ -355,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DToudTOmXBUql0kQT50wPaOjOtQuQ9uNgqU7+TRml+I=
+			Uxhq6TSVOhd+wAwpsS2vL07H27na8KwX1+38yKQTKUE=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -467,7 +467,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			24cmSQRC6CLEeUuF5JBeXu1KhnOH0De4zQ6n9cWYYZs=
+			KM/DKeDYB7+1LTv7+/68GvnmjyDZIgodc06tMVqk3Uc=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -530,35 +530,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jF1BqyjnPV1cx8020uBmxum9pTGa1FIzgq+hv6I0VFI=
+			EAu8Nkf9DLZaCcz02xli4zxYa7XbSWrdMPywZRqnFxE=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Bl/eNSBldQioqSDpGafX+zHVdDB3QJ9Xc0nXhm1XSw=
+			1Zeq0+dTfwTlUMhpmSkw8MXpPkVOtj6Guw9k0qalbHg=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8kuoQ5n4Z2jhLeCthNRXk15jHtMptysN6rQrWskCT1M=
+			6vjtMyXUOfxI6H7612pgH3gJ/u0IkkJhu/3oq2wdjHo=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Bl/eNSBldQioqSDpGafX+zHVdDB3QJ9Xc0nXhm1XSw=
+			1Zeq0+dTfwTlUMhpmSkw8MXpPkVOtj6Guw9k0qalbHg=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2vA0mESKllX6K88ihNggBqFNCo5KJnZC8QtyvjHEKI=
+			dovPebFKjKtpKqu5VApJpRV2zYsXURAFJhlZcJb9QCs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

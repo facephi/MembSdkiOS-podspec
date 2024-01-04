@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		i1v+e3/+9w79fcI0g6yJ3fyYRrM=
+		2NRUGJ/NvCy/0sm5QwokUZxp3rU=
 		</data>
 		<key>DiagnosisView.nib</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Headers/MembiOS-Swift.h</key>
 		<data>
-		nBexQXYSEu3x59AxrLSyX+X2Ldg=
+		tO8LtuyHSsJYHaTw1Npb/UIicFM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Eyunz7D6zqbVaGIaLHXcra78R38=
+		eqpSYgY5bbRQG/PMNI/foUz+70w=
 		</data>
 		<key>InfoAcceptedDocsView.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<data>
-		qePd/YJdlQBgPxlAo9gJ571bANY=
+		35P4aN8+mySiMaLOAWIHOb6PDrU=
 		</data>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		hnwYOc2/wJQvbxt1WbFyvJp1SL0=
+		S6NBuWFqreAeB1ufdE9y9NPmh34=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -150,23 +150,23 @@
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		y9zQtXhm7UjSxkPlx89w0Q/+elg=
+		4g3gfLdgffylCUXXekalbiaHGno=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JivVrTdvpfYjfr15XUHIw+h003E=
+		N+1klcIOJno9Sci/I2o4ndFDtGw=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		EQAxbssCFyTL8Hlr3IGb4wgqwa0=
+		LQ2v2CqmRS5bkDi8cTzQ5fl8hGc=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JivVrTdvpfYjfr15XUHIw+h003E=
+		N+1klcIOJno9Sci/I2o4ndFDtGw=
 		</data>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0hk4hHVl58JO6CpjOyZWSE+VyY0=
+		EGAQ474AQYMpGVa91vpeWAWo+Hk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			naqXfFfmkdued+tEjhJi446QOosYB+xi5Svu8oW/xMg=
+			tMFjA6YOwjh/Le604BVYsra0iOQ8msNjYXhaCw1zGDw=
 			</data>
 		</dict>
 		<key>DiagnosisView.nib</key>
@@ -341,7 +341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ESUAVFW8hZwps78dzylUO3r5kpMFllSVxC8/3g0KLg=
+			I62pfbtMiGacdOuth6MykYDqX33XyXL9HQBysj+/AcY=
 			</data>
 		</dict>
 		<key>InfoAcceptedDocsView.nib</key>
@@ -355,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5DqKI0dgtlqmqfyBROZfBwP0wuMHamwmiSwurAnQiaM=
+			bfS8VvAR0ouJRIj40XEENXiYouLSJYyddXB+07qEu9I=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -467,7 +467,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OV6/2v98YVd1g32cs03oHdcTs0W4GzYQFjvUSOh6OZw=
+			o6rpLE+GoW6awVuw+61LJsuN/XJR3D+dEkFp5U2/xZ8=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -530,35 +530,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b4+0xfhPaBGzA7LsP4uOgXyRjtRnu938dceueI5bJDI=
+			9DFh+JKDQvSpCdoBBUBCV9ndHmgq6WYR2eGRp22pXX4=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2FKV8kM2uJNzBLLMeytUelFHgd1Lgneu0wJPFUdpDA8=
+			0c5xkiktLo+NM/qu3V6uqGVTf4SyjSnZIelR8JYLu3s=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kPrkNZisi0LufWkrYnL4AOjQzWpNn+QfR/bB30Shw3A=
+			+GVC/olyD/YMCyAK9L+rRGenoh1Eq3wKBfnHP72c028=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2FKV8kM2uJNzBLLMeytUelFHgd1Lgneu0wJPFUdpDA8=
+			0c5xkiktLo+NM/qu3V6uqGVTf4SyjSnZIelR8JYLu3s=
 			</data>
 		</dict>
 		<key>Modules/MembiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pJSc6Sfl84ncCq2uhDstFNLbWsuQSgQXCra2GKg/o2E=
+			Q0CSHEHSVJpKK8IoqXbdJzV8A2+LeLMATS+X76383yw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
