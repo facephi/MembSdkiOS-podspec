@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'MembSdkiOS'
-  spec.version          = '3.1.2'
+  spec.version          = '3.1.3'
   spec.summary          = 'MEMB Library: digital identification with biometry'
   spec.swift_version    = '5.0'
   spec.module_name      = "MembiOS"
